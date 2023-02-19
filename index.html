@@ -1,0 +1,66 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="livros.js" defer></script>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Casa da Meg</title>
+
+  <style>
+    #hero {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 800px;
+    }
+
+    #booklist {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      list-style: none;
+    }
+
+    #booklist li {
+      display: block;
+      margin: 2px;
+      border: 1px solid #CCC;
+      padding: 2px;
+    }
+
+    #booklist li img {
+      display: block;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+    #booklist li .no-image {
+      display: block;
+      width: 10em;
+      height: 4em;
+      max-width: 100%;
+      text-align: center;
+      margin: 0 auto;
+      font-style: italic;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <img src="casadameg.jpg" id="hero" />
+    <ul id="booklist">
+      <li v-for="book in books" :key="book.title">
+        <img v-if="book.image" :src="'images/' + book.image + '.jpg'" />
+        <div v-else="book.image" class="no-image">Sem foto :(</div>
+        {{book.title}}
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>
