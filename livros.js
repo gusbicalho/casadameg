@@ -1,6 +1,7 @@
 window.Books = [
   {
     "title": "Vincent - Quadrinhos (Em Português do Brasil)",
+    "image": "gv0923fd87c6009d694e28f9d2fff2d8dd",
     "creators": "Barbara Stok",
     "first_name": "Barbara",
     "last_name": "Stok",
@@ -78,6 +79,7 @@ window.Books = [
   },
   {
     "title": "Playbook: O Manual da Conquista (Em Portugues do Brasil)",
+    "image": "nh5eeaec9e209c01c0b6ae6d7cf4f5c91f",
     "creators": "Barney Stinson",
     "first_name": "Barney",
     "last_name": "Stinson",
@@ -108,6 +110,7 @@ window.Books = [
   },
   {
     "title": "The Book of Bunny Suicides",
+    "image": "m302dd88e8950a09fa433d4a63cf00ee9d",
     "creators": "Andy Riley",
     "first_name": "Andy",
     "last_name": "Riley",
@@ -138,6 +141,7 @@ window.Books = [
   },
   {
     "title": "1000 Lugares Para Conhecer Antes de Morrer (Em Portugues do Brasil)",
+    "image": "oqe73bfe39e79b9076e1f8311f1a967825",
     "creators": "Patricia Schultz",
     "first_name": "Patricia",
     "last_name": "Schultz",
@@ -168,23 +172,8 @@ window.Books = [
     "copies": 1
   },
   {
-    "title": "E Se? (Em Portugues do Brasil)",
-    "image": "8jeddf75e9411049975a36205657537ad1",
-    "creators": "Randall Munroe",
-    "first_name": "Randall",
-    "last_name": "Munroe",
-    "ean_isbn13": 9788535924831,
-    "upc_isbn10": 8535924833,
-    "description": "Garoto prodigio da NASA, Randall Munroe tornou-se conhecido com a iconica serie em quadrinhos XKCD, que passou a publicar na internet em 2005. Desde entao, milhoes de pessoas visitam semanalmente o xkcd.com em busca de suas figuras desenhadas com palitinhos e seus comentarios sobre ciencia, tecnologia e amor. Munroe nao tem exatamente leitores, e sim um sequito de seguidores apaixonados.Mas os fas do XKCD costumam fazer perguntas estranhas a Munroe. O que aconteceria se voce rebatesse uma bola de beisebol a 90% da velocidade da luz? Qual a velocidade maxima permitida para passar de carro por uma lombada sem morrer? Se os robos causassem o apocalipse, quanto tempo a humanidade duraria? Em busca de atender a curiosidade de seus leitores, Munroe criou o tambem imensamente popular E SE?, um blog destinado a resolver essas e outras grandes questoes da humanidade. Para encontrar as respostas, Munroe cria complexas simulacoes computadorizadas, le dezenas de memorandos do exercito, resolve equacoes diferenciais e consulta operadores de usinas nucleares. Suas respostas sao uma obra-prima da clareza e do humor. Em geral elas terminam com a aniquilacao da humanidade, ou pelo menos numa grande explosao.Nas listas dos mais vendidos mesmo antes de ser publicado, E se? traz questoes nunca antes respondidas, alem de versoes expandidas e atualizadas das perguntas mais populares do blog. Leitura obrigatoria nao so para os fas do XKCD, mas para todos que ja se viram considerando hipoteses absurdas e descabidas. Randall Munroe esta ao seu lado.",
-    "publisher": "Companhia das Letras2",
-    "publish_date": "2014-01-01",
-    "notes": "",
-    "price": "R$ 20,00",
-    "length": "",
-    "copies": 1
-  },
-  {
     "title": "Hellsing - Vol.1",
+    "image": "cz13bdc4e2d16e7c7046fc2193dcdea44a",
     "creators": "Kohta Hirano",
     "first_name": "Kohta",
     "last_name": "Hirano",
@@ -245,6 +234,7 @@ window.Books = [
   },
   {
     "title": "O Universo De Sandman: A Casa Dos Sussurros Vol. 1",
+    "image": "b52598972fef984f7b583ecd56984a840ccfc760",
     "creators": "",
     "first_name": "",
     "last_name": "",
@@ -260,6 +250,7 @@ window.Books = [
   },
   {
     "title": "O Universo de Sandman. Os Livros da Magia Volume 1",
+    "image": "j7c678a9bb260ff4384e784760b9f4d8fa",
     "creators": "_",
     "first_name": "_",
     "last_name": "_",
@@ -352,6 +343,7 @@ window.Books = [
   },
   {
     "title": "Akira - Volume 1 (Em Português do Brasil)",
+    "image": "jh1ba4f3ce3e1456ba678180d590059a59",
     "creators": "Katsuhiro Otomo",
     "first_name": "Katsuhiro",
     "last_name": "Otomo",
@@ -399,6 +391,7 @@ window.Books = [
   },
   {
     "title": "Segunda Fundação - Volume 3 (Em Português do Brasil)",
+    "image": "cf926d1f0e315af4e52fac25a29b60718b",
     "creators": "Isaac Asimov",
     "first_name": "Isaac",
     "last_name": "Asimov",
@@ -429,6 +422,7 @@ window.Books = [
   },
   {
     "title": "Retalhos - Blankets (Em Portugues do Brasil)",
+    "image": "jwe03ba66fb42a12ba43cb38aef80580bb",
     "creators": "Craig Thompson",
     "first_name": "Craig",
     "last_name": "Thompson",
@@ -444,6 +438,7 @@ window.Books = [
   },
   {
     "title": "Batman. Arkham Knight (Em Português do Brasil)",
+    "image": "aq3e3715c8390f0e0e47ace799ab53b18f",
     "creators": "Marv Wolfman",
     "first_name": "Marv",
     "last_name": "Wolfman",
@@ -455,6 +450,22 @@ window.Books = [
     "notes": "Capa Dura",
     "price": "R$ 25,00",
     "length": "",
+    "copies": 1
+  },
+  {
+    "title": "Games People Play: The Basic Handbook of Transactional Analysis.",
+    "image": "akecb1f4a4ee989b642f665bd3ef5c01fa",
+    "creators": "Eric Berne",
+    "first_name": "Eric",
+    "last_name": "Berne",
+    "ean_isbn13": 9780345410030,
+    "upc_isbn10": 345410033,
+    "description": "We think we&rsquo;re relating to other people&ndash;but actually we&rsquo;re all playing games.Forty years ago, Games People Play revolutionized our understanding of what really goes on during our most basic social interactions. More than five million copies later, Dr. Eric Berne&rsquo;s classic is as astonishing&ndash;and revealing&ndash;as it was on the day it was first published. This anniversary edition features a new introduction by Dr. James R. Allen, president of the International Transactional Analysis Association, and Kurt Vonnegut&rsquo;s brilliant Life magazine review from 1965.We play games all the time&ndash;sexual games, marital games, power games with our bosses, and competitive games with our friends. Detailing status contests like &ldquo;Martini&rdquo; (I know a better way), to lethal couples combat like &ldquo;If It Weren&rsquo;t For You&rdquo; and &ldquo;Uproar,&rdquo; to flirtation favorites like &ldquo;The Stocking Game&rdquo; and &ldquo;Let&rsquo;s You and Him Fight,&rdquo; Dr. Berne exposes the secret ploys and unconscious maneuvers that rule our intimate lives.Explosive when it first appeared, Games People Play is now widely recognized as the most original and influential popular psychology book of our time. It&rsquo;s as powerful and eye-opening as ever.",
+    "publisher": "Ballantine Books",
+    "publish_date": "1996-08-27",
+    "notes": "",
+    "price": "R$ 30,00",
+    "length": 216,
     "copies": 1
   },
   {
@@ -474,6 +485,7 @@ window.Books = [
   },
   {
     "title": "Gerenciamento de Projetos Para Leigos",
+    "image": "fa449955d22865ca4f681391112c4580a872b324",
     "creators": "Stanley E. Portny",
     "first_name": "Stanley",
     "last_name": "Portny",
@@ -489,6 +501,7 @@ window.Books = [
   },
   {
     "title": "Introduction to Functional Programming Systems Using Haskell (Cambridge Computer Science Texts)",
+    "image": "f28f982fc2900b260e40b37b28b95f62c4",
     "creators": "Antony J. T. Davie",
     "first_name": "Antony",
     "last_name": "Davie",
@@ -520,6 +533,7 @@ window.Books = [
   },
   {
     "title": "The Design of Everyday Things: Revised and Expanded Edition",
+    "image": "lr5a706cf3ebc7bfe2a9399b4a8cd72120",
     "creators": "Don Norman",
     "first_name": "Don",
     "last_name": "Norman",
@@ -535,6 +549,7 @@ window.Books = [
   },
   {
     "title": "De Zero A Um (Em Portugues do Brasil)",
+    "image": "m4646aa8d2cc74b59b5cb2d0b646903560",
     "creators": "Peter Thiel/Blake Masters",
     "first_name": "Peter",
     "last_name": "Masters",
@@ -566,6 +581,7 @@ window.Books = [
   },
   {
     "title": "The Silver Dream: An InterWorld Novel",
+    "image": "gv802981a2884bb76226c0f84cfdd39ab5",
     "creators": "Neil Gaiman, Michael Reaves, Mallory Reaves",
     "first_name": "Neil",
     "last_name": "Gaiman",
@@ -581,6 +597,7 @@ window.Books = [
   },
   {
     "title": "The Ocean at the End of the Lane: A Novel",
+    "image": "frc6fcbaf196c5acd304f337a08711ff51",
     "creators": "Neil Gaiman",
     "first_name": "Neil",
     "last_name": "Gaiman",
@@ -657,7 +674,8 @@ window.Books = [
     "copies": 1
   },
   {
-    "title": "Star Trek: Portal do Templo",
+    "title": "Star Trek: Portal do Tempo",
+    "image": "gge4880bfdd04ad96e6eac991e6e77c48b",
     "creators": "A. C. Crispin",
     "first_name": "A.",
     "last_name": "Crispin",
@@ -688,6 +706,7 @@ window.Books = [
   },
   {
     "title": "O Novo Iluminismo. Em Defesa da Razao da Ciencia e do Humanismo (Em Portugues do Brasil)",
+    "image": "bxf744282811dee0ffdc1b99c0402ae8cf",
     "creators": "Steven Pinker",
     "first_name": "Steven",
     "last_name": "Pinker",
@@ -703,6 +722,7 @@ window.Books = [
   },
   {
     "title": "Silmarillion, O",
+    "image": "j527f6a266ea323f4734bce801a55533b8",
     "creators": "J.R.R. Tolkien",
     "first_name": "J.R.R.",
     "last_name": "Tolkien",
@@ -750,6 +770,7 @@ window.Books = [
   },
   {
     "title": "Hobbit - Edicao 4 (Em Portugues do Brasil)",
+    "image": "bj00a83176a05611faf8afdb8b48d488e8",
     "creators": "J. R. R. Tolkien",
     "first_name": "J.",
     "last_name": "Tolkien",
@@ -765,6 +786,7 @@ window.Books = [
   },
   {
     "title": "Os Despossuídos (Em Português do Brasil)",
+    "image": "k8d15773cb71be0da75d9fa33ef3a48b3c",
     "creators": "Ursula K. Le Guin",
     "first_name": "Ursula",
     "last_name": "Guin",
@@ -780,6 +802,7 @@ window.Books = [
   },
   {
     "title": "Fontes do Paraiso, As",
+    "image": "lg1226e6420cb365f81b3f2a4aa3f6341f",
     "creators": "Arthur C. Clarke",
     "first_name": "Arthur",
     "last_name": "Clarke",
@@ -811,6 +834,7 @@ window.Books = [
   },
   {
     "title": "Reflexo na Escuridao, Um",
+    "image": "e7e5eabdc3bcd8f855dd1e2f9403975fd1",
     "creators": "Philip K. Dick",
     "first_name": "Philip",
     "last_name": "Dick",
@@ -826,6 +850,7 @@ window.Books = [
   },
   {
     "title": "Realidades Adaptadas",
+    "image": "nlddeac3655d6e671e1fac8bf3f718f926",
     "creators": "Philip K. Dick",
     "first_name": "Philip",
     "last_name": "Dick",
@@ -857,6 +882,7 @@ window.Books = [
   },
   {
     "title": "The Histories of Middle Earth, Volumes 1-5",
+    "image": "p109dabf1ce7c63a4d41612749bd29bc82",
     "creators": "J.R.R. Tolkien",
     "first_name": "J.R.R.",
     "last_name": "Tolkien",
@@ -903,6 +929,7 @@ window.Books = [
   },
   {
     "title": "Vertigo - Contos Macabros",
+    "image": "jh12b16d3b90b48bd1b85b3797e274f497",
     "creators": "Grant Morrison",
     "first_name": "Grant",
     "last_name": "Morrison",
@@ -950,6 +977,7 @@ window.Books = [
   },
   {
     "title": "O Universo De Sandman - Lucifer Volume 1 (Em Portugues do Brasil)",
+    "image": "ll07e2d53ca59eca6d3b11428a3a441174",
     "creators": "Neil Gaiman",
     "first_name": "Neil",
     "last_name": "Gaiman",
@@ -996,6 +1024,7 @@ window.Books = [
   },
   {
     "title": "Universo X - Volume 1 (Em Português do Brasil)",
+    "image": "mk81ff94130f7703beead06bf5db6180e2.jpg",
     "creators": "Alex Ross",
     "first_name": "Alex",
     "last_name": "Ross",
@@ -1102,6 +1131,7 @@ window.Books = [
   },
   {
     "title": "Box Coringa e Batman - A Piada Mortal - Edição Especial Limitada",
+    "image": "fw1bc8f85f96d363a0df742f87f11d96dc",
     "creators": "Allan Moore, Brian Azarello",
     "first_name": "Allan",
     "last_name": "Moore",
@@ -1342,6 +1372,7 @@ window.Books = [
   },
   {
     "title": "The Startup Owner's Manual: The Step-By-Step Guide for Building a Great Company",
+    "image": "gl9d0805abe060def29b388a3ab4a46e21",
     "creators": "Steve Blank, Bob Dorf",
     "first_name": "Steve",
     "last_name": "Blank",
@@ -1357,6 +1388,7 @@ window.Books = [
   },
   {
     "title": "Black Dog: Os Sonhos de Paul Nash",
+    "image": "bh2285622c5c2aebd02431a173cb4fcd9c",
     "creators": "Dave McKean",
     "first_name": "Dave",
     "last_name": "McKean",
