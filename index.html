@@ -19,32 +19,81 @@
       max-width: 800px;
     }
 
-    #booklist {
+    #search {
+      padding: 0.5rem
+    }
+
+    .booklist {
       display: grid;
       grid-template-columns: 1fr 1fr;
       list-style: none;
     }
 
-    #booklist li {
-      display: block;
+    .booklist li {
       margin: 2px;
       border: 1px solid #CCC;
-      padding: 2px;
     }
 
-    #booklist li img {
+    .book {
+      display: flex;
+      flex-direction: column;
+      padding: 0.5rem;
+    }
+
+    .book img {
       display: block;
       max-width: 100%;
       margin: 0 auto;
     }
-    #booklist li .no-image {
+
+    .book .no-image {
       display: block;
-      width: 10em;
-      height: 4em;
+      width: 100%;
+      height: 4rem;
       max-width: 100%;
       text-align: center;
-      margin: 0 auto;
       font-style: italic;
+    }
+
+    .book .title {
+      flex: 1;
+      padding: 0.5rem 0.5rem;
+      font-size: 0.8em;
+    }
+
+    .book .price {
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .book .actions {
+      display: flex;
+      justify-content: center;
+    }
+
+    .book .actions button {
+      margin: 0;
+      padding: 0 1rem;
+    }
+
+    .tabs {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .tabs .controls {
+      flex: 0;
+      align-self: stretch;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .tabs .controls button {
+      display: block;
+      flex: 1;
+      margin: 2px;
+      border-radius: 0;
+
     }
 
   </style>
@@ -53,11 +102,31 @@
 <body>
   <div id="app">
     <img src="casadameg.jpg" id="hero" />
-    <ul id="booklist">
-      <li v-for="book in books" :key="book.title">
+    <div class="tabs">
+      <div class="controls">
+        <button v-for="tab in tabs()" :key="tab.id" @click="() => this.selectTab(tab.id)"
+          :class="{ 'button-outline': selectedTab === tab.id, 'button-clear': selectedTab !== tab.id }">
+          {{tab.title}}</button>
+      </div>
+    </div>
+    <!-- All Books tab -->
+    <div v-if="selectedTab === 'all-books'">
+      <div id="search">
+        <input type="text" :value="searchString" @input="event => this.search(event.target.value)"
+          placeholder="Busca" />
+      </div>
+    </div>
+    <ul class="booklist">
+      <li v-for="book in booklist()" :key="book.title" class="book">
         <img v-if="book.image" :src="'images/' + book.image + '.jpg'" />
         <div v-else="book.image" class="no-image">Sem foto :(</div>
-        {{book.title}}
+        <div class="title">{{book.title}}</div>
+        <div class="price">{{book.price}}</div>
+        <div class="actions">
+          <button v-if="!this.isInWishlist(book)" @click="() => this.addToWishlist(book)">Bota na lista! ❤️</button>
+          <button v-if="this.isInWishlist(book)" @click="() => this.removeFromWishlist(book)">Não quero mais
+            😞</button>
+        </div>
       </li>
     </ul>
   </div>
