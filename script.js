@@ -98,12 +98,13 @@ const app = Vue.createApp({
         this.wishlist = this.wishlist.filter((someBook) => someBook !== book)
       }
     },
-    shareWishlist() {
-      const title = "Oi, quero esses livros!"
+    whatsappWishlist() {
+      const phone = "5519983533555"
       const text =
         "Oi, vi seu site e me interessei por esses livros aqui:\n\n" +
         this.wishlist.map(({ creators, title, price }) => `${price} - ${creators} - ${title}`).join('\n')
-      return navigator.share({ title, text })
+      const whatsapp = `https://api.whatsapp.com/send?phone=${encodeURIComponent(phone)}&text=${encodeURIComponent(text)}`
+      window.open(whatsapp)
     },
     emailWishlist() {
       const subject = "Oi, quero esses livros!"
