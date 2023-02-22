@@ -3,8 +3,6 @@ const ALL_TABS = [
   { id: 'wishlist', title: 'Minha Lista' },
 ]
 
-const bookId = ({ ean_isbn13 }) => ean_isbn13
-
 const bookIncludes = ({ title, creators, ean_isbn13, upc_isbn10, description }, searchString) =>
   (title && title.includes(searchString))
   || (creators && creators.includes(searchString))
@@ -81,21 +79,39 @@ const app = Vue.createApp({
     wishcount() {
       return this.wishset.size
     },
+    isWishlistEmpty() {
+      return this.wishcount() === 0
+    },
     isInWishlist(book) {
-      return this.wishset.has(bookId(book))
+      return this.wishset.has(book)
     },
     addToWishlist(book) {
       if (!this.isInWishlist(book)) {
-        this.wishset = this.wishset.add(bookId(book))
+        this.wishset = this.wishset.add(book)
         this.wishlist.push(book)
         this.wishlist = this.wishlist
       }
     },
     removeFromWishlist(book) {
-      if (this.wishset.delete(bookId(book))) {
+      if (this.wishset.delete(book)) {
         this.wishset = this.wishset
-        this.wishlist = this.wishlist.filter((someBook) => bookId(someBook) !== bookId(book))
+        this.wishlist = this.wishlist.filter((someBook) => someBook !== book)
       }
+    },
+    shareWishlist() {
+      const title = "Oi, quero esses livros!"
+      const text =
+        "Oi, vi seu site e me interessei por esses livros aqui:\n\n" +
+        this.wishlist.map(({ creators, title, price }) => `${price} - ${creators} - ${title}`).join('\n')
+      return navigator.share({ title, text })
+    },
+    emailWishlist() {
+      const subject = "Oi, quero esses livros!"
+      const body =
+        "Oi, vi seu site e me interessei por esses livros aqui:\n\n" +
+        this.wishlist.map(({ creators, title, price }) => `${price} - ${creators} - ${title}`).join('\n')
+      const mailto = `mailto:Casa da Meg<mgarcia.si01@gmail.com>?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+      window.open(mailto)
     }
   }
 })

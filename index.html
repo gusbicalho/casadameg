@@ -96,6 +96,20 @@
 
     }
 
+    .wishlist .empty {
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    .wishlist .actions {
+      padding: 1rem 1rem;
+      display: flex;
+      flex-direction: row;
+    }
+    .wishlist .actions button {
+      flex: 1;
+      margin: 0.1rem;
+      padding: 0;
+    }
   </style>
 </head>
 
@@ -110,10 +124,20 @@
       </div>
     </div>
     <!-- All Books tab -->
-    <div v-if="selectedTab === 'all-books'">
+    <div v-if="selectedTab === 'all-books'" class="all-books">
       <div id="search">
         <input type="text" :value="searchString" @input="event => this.search(event.target.value)"
           placeholder="Busca" />
+      </div>
+    </div>
+    <div v-if="selectedTab === 'wishlist'" class="wishlist">
+      <div v-if="isWishlistEmpty()" class="empty">
+        Nada aqui ainda...<br><br>
+        <button @click="() => this.selectTab('all-books')">Ver todos os livros</button>
+      </div>
+      <div v-else="isWishlistEmpty()" class="actions">
+        <button @click="() => this.shareWishlist()">Mandar pedido 🐈‍</button>
+        <button @click="() => this.emailWishlist()">Pedir por email 📧</button>
       </div>
     </div>
     <ul class="booklist">
