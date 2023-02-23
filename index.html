@@ -12,6 +12,10 @@
   <title>Casa da Meg</title>
 
   <style>
+    body {
+      color: black;
+    }
+
     #hero {
       display: block;
       margin: 0 auto;
@@ -24,9 +28,12 @@
     }
 
     .booklist {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
+      /* display: grid;
+      grid-template-columns: 1fr 1fr; */
+      display: flex;
+      flex-wrap: wrap;
       list-style: none;
+      justify-content: space-around;
     }
 
     .booklist li {
@@ -37,7 +44,14 @@
     .book {
       display: flex;
       flex-direction: column;
+      width: 20rem;
+      max-width: 45%;
       padding: 0.5rem;
+    }
+
+    .book.expanded {
+      width: 95%;
+      max-width: 50rem;
     }
 
     .book img {
@@ -100,16 +114,19 @@
       text-align: center;
       padding: 3rem 1rem;
     }
+
     .wishlist .actions {
       padding: 1rem 1rem;
       display: flex;
       flex-direction: row;
     }
+
     .wishlist .actions button {
       flex: 1;
       margin: 0.1rem;
       padding: 0;
     }
+
   </style>
 </head>
 
@@ -141,15 +158,21 @@
       </div>
     </div>
     <ul class="booklist">
-      <li v-for="book in booklist()" :key="book.title" class="book">
+      <li v-for="book in booklist()" :key="book.title" :class="{book: true, expanded: this.isExpanded(book)}">
         <img v-if="book.image" :src="'images/' + book.image + '.jpg'" />
         <div v-else="book.image" class="no-image">Sem foto :(</div>
         <div class="title">{{book.title}}</div>
+        <div v-if="isExpanded(book)">
+          <div v-for="detail in bookDetails(book)">
+            <strong>{{detail.title}}:</strong> {{detail.text}}
+          </div>
+        </div>
+        <button v-if="isExpanded(book)" class="button-clear" @click="() => toggleExpanded(book)">Ver menos</button>
+        <button v-else="isExpanded(book)" class="button-clear" @click="() => toggleExpanded(book)">Ver mais</button>
         <div class="price">{{book.price}}</div>
         <div class="actions">
-          <button v-if="!this.isInWishlist(book)" @click="() => this.addToWishlist(book)">Bota na lista! ❤️</button>
-          <button v-if="this.isInWishlist(book)" @click="() => this.removeFromWishlist(book)">Não quero mais
-            😞</button>
+          <button v-if="this.isInWishlist(book)" @click="() => this.removeFromWishlist(book)" class="button-clear">Não quero mais 😞</button>
+          <button v-else="this.isInWishlist(book)" @click="() => this.addToWishlist(book)">Bota na lista! ❤️</button>
         </div>
       </li>
     </ul>

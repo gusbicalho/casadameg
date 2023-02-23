@@ -1,50 +1,55 @@
-const ALL_TABS = [
-  { id: 'all-books', title: 'Todos os Livros' },
-  { id: 'wishlist', title: 'Minha Lista' },
-]
-
-const bookIncludes = ({ title, creators, ean_isbn13, upc_isbn10, description }, searchString) =>
+const bookIncludes = ({ title, creators, ean_isbn13, upc_isbn10, description, notes }, searchString) =>
   (title && title.includes(searchString))
   || (creators && creators.includes(searchString))
   || (ean_isbn13 && ean_isbn13.includes(searchString))
   || (upc_isbn10 && upc_isbn10.includes(searchString))
   || (description && description.includes(searchString))
 
-function parseSearch(searchString) {
-  const clearSearch = searchString && searchString.trim()
-  if (!clearSearch) {
-    return null
-  }
-  return (book) => bookIncludes(book, clearSearch)
+function withSearchString(book) {
+  const { title, creators, ean_isbn13, upc_isbn10, description, notes } = book
+  const searchString = [title, creators, ean_isbn13, upc_isbn10, description, notes]
+    .filter((v) => !!v)
+    .join(' ')
+    .toUpperCase()
+    .replace(/\W/g, ' ')
+    .replace(/\s+/g, ' ')
+  return { ...book, searchString }
 }
 
-const BookCard = {
-  props: ['book'
-    // , 'isInWishlist', 'addToWishlist', 'removeFromWishlist'
-  ],
-  template: `
-    <img v-if="book.image" :src="'images/' + book.image + '.jpg'" />
-    <div v-else="book.image" class="no-image">Sem foto :(</div>
-    <div class="title">{{book.title}}</div>
-    <div class="price">{{book.price}}</div>
-    <div class="actions">
-      <button v-if="!this.isInWishlist(book)" @click="() => this.addToWishlist(book)">Bota na lista! ❤️</button>
-      <button v-if="this.isInWishlist(book)" @click="() => this.removeFromWishlist(book)">Não quero mais
-        😞</button>
-    </div>
-  `
+function parseSearch(searchString) {
+  const searchTerms = (searchString || '')
+    .trim()
+    .toUpperCase()
+    .replace(/\W/g, ' ')
+    .split(/\s+/g)
+    .filter((s) => s)
+  if (searchTerms.length === 0) {
+    return null
+  }
+  return ({ searchString }) =>
+    searchString &&
+    searchTerms.some((term) => searchString.includes(term))
 }
+
+const BOOK_DETAIL_FIELDS = [
+  ["creators", "Autoria"],
+  ["ean_isbn13", "ISBN-13"],
+  ["upc_isbn10", "ISBN-10"],
+  ["description", "Descrição"],
+  ["notes", "Notas"],
+  ["length", "Páginas"],
+]
+
 
 const DEFAULT_TAB = 'all-books'
 const app = Vue.createApp({
-  components: {
-    BookCard
-  },
   data() {
+    const books = Books.map(withSearchString)
     return {
-      books: Books,
+      books,
       searchString: null,
-      visibleBooks: Books,
+      visibleBooks: books,
+      expanded: new Set(),
       wishset: new Set(),
       wishlist: [],
       selectedTab: DEFAULT_TAB,
@@ -75,6 +80,29 @@ const app = Vue.createApp({
         return
       }
       this.visibleBooks = this.books.filter(bookMatches)
+    },
+    toggleExpanded(book) {
+      if (this.expanded.has(book)) {
+        this.expanded.delete(book)
+        this.expanded = this.expanded
+      } else {
+        this.expanded = this.expanded.add(book)
+      }
+    },
+    isExpanded(book) {
+      return this.expanded.has(book)
+    },
+    bookDetails(book) {
+      const b = BOOK_DETAIL_FIELDS
+        .flatMap(([fieldKey, title]) => {
+          const text = book[fieldKey]
+          if (text) {
+            return [{ title, text }]
+          }
+          return []
+        })
+      console.log('bookDetails', b)
+      return b
     },
     wishcount() {
       return this.wishset.size
