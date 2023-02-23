@@ -33,6 +33,7 @@ window.Books = [
   },
   {
     "title": "Como Saber Se Seu Gato Está Planejando Matar Você (Em Português do Brasil)",
+    "image": "xz3ba9f1c36cbf83b7fd8da3ef41d3f9bf",
     "creators": "Vários Autores",
     "first_name": "Vários",
     "last_name": "Autores",
@@ -64,6 +65,7 @@ window.Books = [
   },
   {
     "title": "Bro Code (Em Inglês)",
+    "image": "tqc441acc5ec4180be4924e392df7cc42e",
     "creators": "Kuhn Matt Stinson Barney",
     "first_name": "Kuhn",
     "last_name": "Barney",
@@ -95,6 +97,7 @@ window.Books = [
   },
   {
     "title": "O Código BRO",
+    "image": "ys3f02bd4b2e6db4b3ae7a775fa22a8048",
     "creators": "Barney Stinson",
     "first_name": "Barney",
     "last_name": "Stinson",
@@ -126,6 +129,7 @@ window.Books = [
   },
   {
     "title": "San Francisco - Insight City Guide",
+    "image": "s4e647f1226db141eab0db6f4be475b590",
     "creators": "Insight Guides Staff",
     "first_name": "Insight",
     "last_name": "Staff",
@@ -189,6 +193,7 @@ window.Books = [
   },
   {
     "title": "Dexter (Em Portugues do Brasil)",
+    "image": "r54ccdae920b61a5fb04d296ab4497331a",
     "creators": "Jeff Lindsay",
     "first_name": "Jeff",
     "last_name": "Lindsay",
@@ -204,6 +209,7 @@ window.Books = [
   },
   {
     "title": "The Ghost in the Shell 2.0 (Em Portugues do Brasil)",
+    "image": "pi67e0d01887a30bfdae12c899ac2e9e92",
     "creators": "Shirow Masamune",
     "first_name": "Shirow",
     "last_name": "Masamune",
@@ -219,6 +225,7 @@ window.Books = [
   },
   {
     "title": "The Ghost in the Shell (Em Português do Brasil)",
+    "image": "xh23b13ee1d6932e2d727370c186af624c",
     "creators": "Shirow Masamune",
     "first_name": "Shirow",
     "last_name": "Masamune",
@@ -266,7 +273,7 @@ window.Books = [
   },
   {
     "title": "The Wicked + The Divine",
-    "image": "0k2a60270b16c05c55c9867be17700fc52",
+    "image": "u77a13ff78108b8e81b3c960fb12a26dfa",
     "creators": "Vários Autores",
     "first_name": "Vários",
     "last_name": "Autores",
@@ -282,6 +289,7 @@ window.Books = [
   },
   {
     "title": "The wicked + The divine: Fandêmonio",
+    "image": "0k2a60270b16c05c55c9867be17700fc52",
     "creators": "Kieron Gillen",
     "first_name": "Kieron",
     "last_name": "Gillen",
@@ -297,6 +305,7 @@ window.Books = [
   },
   {
     "title": "The Wicked + The Divine(Em Portugues do Brasil)",
+    "image": "y07214650cb9e90b321fde3d1b302aed2d",
     "creators": "Kieron Gillen",
     "first_name": "Kieron",
     "last_name": "Gillen",
@@ -328,6 +337,7 @@ window.Books = [
   },
   {
     "title": "Akira 2",
+    "image": "s9954e223cadb33d7d8c87538ddde7affc",
     "creators": "Katsuhiro Otomo",
     "first_name": "Katsuhiro",
     "last_name": "Otomo",
@@ -407,6 +417,7 @@ window.Books = [
   },
   {
     "title": "Fundação e Império (Em Português do Brasil)",
+    "image": "st3a0bb6704a6a490160db2a44f5fed2f5",
     "creators": "Isaac Asimov",
     "first_name": "Isaac",
     "last_name": "Asimov",
@@ -470,6 +481,7 @@ window.Books = [
   },
   {
     "title": "Unnatural Selection: Choosing Boys Over Girls, and the Consequences of a World Full of Men",
+    "image": "tycb71330d89b21d0127ff3bb48782c1d3",
     "creators": "Mara Hvistendahl",
     "first_name": "Mara",
     "last_name": "Hvistendahl",
@@ -629,6 +641,7 @@ window.Books = [
   },
   {
     "title": "Star Wars - Livro 1: O Caminho Jedi (Em Portugues do Brasil)",
+    "image": "ph1b06d67d291283dcbeb2b57e7f97ae74",
     "creators": "Daniel Wallace",
     "first_name": "Daniel",
     "last_name": "Wallace",
@@ -660,6 +673,7 @@ window.Books = [
   },
   {
     "title": "Doctor Who: O Prisioneiro dos Daleks",
+    "image": "pob69bd39bf1d13eb49ef9cffa2b6b42f0",
     "creators": "Trevor Baxendale",
     "first_name": "Trevor",
     "last_name": "Baxendale",
@@ -691,6 +705,7 @@ window.Books = [
   },
   {
     "title": "O Poder (Em Portugues do Brasil)",
+    "image": "tifd68e9d9f376ed394ffacee6d9226092",
     "creators": "Naomi Alderman",
     "first_name": "Naomi",
     "last_name": "Alderman",
@@ -914,6 +929,7 @@ window.Books = [
   },
   {
     "title": "Gata Garota - Volume 1 (Em Portugues do Brasil)",
+    "image": "r8db3f9878bdd6abfbf273503e05e1807d",
     "creators": "Fefe Torquato",
     "first_name": "Fefe",
     "last_name": "Torquato",
@@ -1009,6 +1025,7 @@ window.Books = [
   },
   {
     "title": "Fabulosos X-men, Os : O Bom, O Mau E O Inumano",
+    "image": "ypb38ca66c9b6bf6415c7f81e40dfbcad5",
     "creators": "Bendis Bachalo",
     "first_name": "Bendis",
     "last_name": "Bachalo",
@@ -1040,6 +1057,7 @@ window.Books = [
   },
   {
     "title": "Multiverso",
+    "image": "zid4932e38b08ddecc8b62d54946bf0cf9",
     "creators": "Grant Morrison, Ivan Reis, Joe Prado",
     "first_name": "Grant",
     "last_name": "Morrison",
