@@ -1,3 +1,15 @@
+const withStorage = (f) => {
+  let storage;
+  try {
+    storage = window.localStorage
+  } catch { }
+  if (storage) {
+    return f(storage)
+  }
+}
+
+const wishlistStorageKey = ({ title }) => 'wishlist/' + title
+
 const bookIncludes = ({ title, creators, ean_isbn13, upc_isbn10, description, notes }, searchString) =>
   (title && title.includes(searchString))
   || (creators && creators.includes(searchString))
@@ -44,14 +56,20 @@ const BOOK_DETAIL_FIELDS = [
 const DEFAULT_TAB = 'all-books'
 const app = Vue.createApp({
   data() {
-    const books = Books.map(withSearchString)
+    const books = Books
+      .map(withSearchString)
+      .sort((a, b) => a.searchString.localeCompare(b.searchString))
+    const wishlist = withStorage(
+      (storage) =>
+        books.filter((book) => storage.getItem(wishlistStorageKey(book)))
+    )
     return {
       books,
       searchString: null,
       visibleBooks: books,
       expanded: new Set(),
-      wishset: new Set(),
-      wishlist: [],
+      wishset: new Set(wishlist),
+      wishlist,
       selectedTab: DEFAULT_TAB,
     }
   },
@@ -118,12 +136,18 @@ const app = Vue.createApp({
         this.wishset = this.wishset.add(book)
         this.wishlist.push(book)
         this.wishlist = this.wishlist
+        withStorage((storage) => {
+          storage.setItem(wishlistStorageKey(book), true)
+        })
       }
     },
     removeFromWishlist(book) {
       if (this.wishset.delete(book)) {
         this.wishset = this.wishset
         this.wishlist = this.wishlist.filter((someBook) => someBook !== book)
+        withStorage((storage) => {
+          storage.removeItem(wishlistStorageKey(book))
+        })
       }
     },
     whatsappWishlist() {

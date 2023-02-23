@@ -17,7 +17,6 @@ window.Books = [
   },
   {
     "title": "The Structure and Dynamics of Organizations and Groups",
-    "image": "akecb1f4a4ee989b642f665bd3ef5c01fa",
     "creators": "Eric Berne",
     "first_name": "Eric",
     "last_name": "Berne",
@@ -1370,21 +1369,6 @@ window.Books = [
     "publish_date": "",
     "notes": "Capa Dura",
     "price": "R$ 30,00",
-    "length": "",
-    "copies": 1
-  },
-  {
-    "title": "The Structure and Dynamics of Organizations and Groups",
-    "creators": "Eric Berne",
-    "first_name": "Eric",
-    "last_name": "Berne",
-    "ean_isbn13": "9780394170480",
-    "upc_isbn10": "0394170482",
-    "description": "",
-    "publisher": "",
-    "publish_date": "",
-    "notes": "",
-    "price": "R$ 10,00",
     "length": "",
     "copies": 1
   },
