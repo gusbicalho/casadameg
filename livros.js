@@ -1,3 +1,24 @@
+const makeSearchString = (object, fields) =>
+  fields
+    .map((f) => object[f])
+    .filter((v) => !!v)
+    .join(' ')
+    .toUpperCase()
+    .replace(/\W/g, ' ')
+    .replace(/\s+/g, ' ')
+
+const compareBySearchString = (a, b) => a.searchString.localeCompare(b.searchString)
+
+function bookSearchString({ title, creators, ean_isbn13, upc_isbn10, description, notes }) {
+  const searchString = [title, creators, ean_isbn13, upc_isbn10, description, notes]
+    .filter((v) => !!v)
+    .join(' ')
+    .toUpperCase()
+    .replace(/\W/g, ' ')
+    .replace(/\s+/g, ' ')
+  return searchString
+}
+
 window.Books = [
   {
     "title": "Vincent - Quadrinhos (Em Português do Brasil)",
@@ -1404,4 +1425,24 @@ window.Books = [
     "length": "",
     "copies": 1
   }
-]
+].map((book) => {
+  return {
+    ...book,
+    searchString: makeSearchString(book, [
+      'title',
+      'creators',
+      'ean_isbn13',
+      'upc_isbn10',
+      'description',
+      'notes',
+    ]),
+    detailFields: [
+      ["creators", "Autoria"],
+      ["ean_isbn13", "ISBN-13"],
+      ["upc_isbn10", "ISBN-10"],
+      ["description", "Descrição"],
+      ["notes", "Notas"],
+      ["length", "Páginas"],
+    ]
+  }
+}).sort(compareBySearchString)

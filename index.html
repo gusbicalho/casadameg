@@ -2,7 +2,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   <script src="livros.js" defer></script>
   <script src="script.js" defer></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
@@ -27,7 +27,7 @@
       padding: 0.5rem
     }
 
-    .booklist {
+    .products {
       /* display: grid;
       grid-template-columns: 1fr 1fr; */
       display: flex;
@@ -36,7 +36,7 @@
       justify-content: space-around;
     }
 
-    .booklist li {
+    .products li {
       margin: 2px;
       border: 1px solid #CCC;
     }
@@ -132,7 +132,7 @@
 
 <body>
   <div id="app">
-    <img src="casadameg.jpg" id="hero" />
+    <img src="capa.jpg" id="hero" />
     <div class="tabs">
       <div class="controls">
         <button v-for="tab in tabs()" :key="tab.id" @click="() => this.selectTab(tab.id)"
@@ -141,7 +141,7 @@
       </div>
     </div>
     <!-- All Books tab -->
-    <div v-if="selectedTab === 'all-books'" class="all-books">
+    <div v-if="selectedTab !== 'wishlist'" class="search">
       <div id="search">
         <input type="text" :value="searchString" @input="event => this.search(event.target.value)"
           placeholder="Busca" />
@@ -157,8 +157,8 @@
         <button @click="() => this.emailWishlist()">Pedir por email 📧</button>
       </div>
     </div>
-    <ul class="booklist">
-      <li v-for="book in booklist()" :key="book.title" :class="{book: true, expanded: this.isExpanded(book)}">
+    <ul class="products">
+      <li v-for="book in productList()" :key="book.title" :class="{book: true, expanded: this.isExpanded(book)}">
         <img v-if="book.image" :src="'images/' + book.image + '.jpg'" />
         <div v-else="book.image" class="no-image">Sem foto :(</div>
         <div class="title">{{book.title}}</div>

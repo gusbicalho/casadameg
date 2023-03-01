@@ -10,24 +10,6 @@ const withStorage = (f) => {
 
 const wishlistStorageKey = ({ title }) => 'wishlist/' + title
 
-const bookIncludes = ({ title, creators, ean_isbn13, upc_isbn10, description, notes }, searchString) =>
-  (title && title.includes(searchString))
-  || (creators && creators.includes(searchString))
-  || (ean_isbn13 && ean_isbn13.includes(searchString))
-  || (upc_isbn10 && upc_isbn10.includes(searchString))
-  || (description && description.includes(searchString))
-
-function withSearchString(book) {
-  const { title, creators, ean_isbn13, upc_isbn10, description, notes } = book
-  const searchString = [title, creators, ean_isbn13, upc_isbn10, description, notes]
-    .filter((v) => !!v)
-    .join(' ')
-    .toUpperCase()
-    .replace(/\W/g, ' ')
-    .replace(/\s+/g, ' ')
-  return { ...book, searchString }
-}
-
 function parseSearch(searchString) {
   const searchTerms = (searchString || '')
     .trim()
@@ -43,61 +25,59 @@ function parseSearch(searchString) {
     searchTerms.some((term) => searchString.includes(term))
 }
 
-const BOOK_DETAIL_FIELDS = [
-  ["creators", "Autoria"],
-  ["ean_isbn13", "ISBN-13"],
-  ["upc_isbn10", "ISBN-10"],
-  ["description", "Descrição"],
-  ["notes", "Notas"],
-  ["length", "Páginas"],
-]
-
-
-const DEFAULT_TAB = 'all-books'
+const DEFAULT_TAB = 'books'
 const app = Vue.createApp({
   data() {
-    const books = Books
-      .map(withSearchString)
-      .sort((a, b) => a.searchString.localeCompare(b.searchString))
+    const products = {
+      books: Books
+    }
+    const allProducts = products.books
     const wishlist = withStorage(
       (storage) =>
-        books.filter((book) => storage.getItem(wishlistStorageKey(book)))
+        allProducts.filter((book) => storage.getItem(wishlistStorageKey(book)))
     )
+    const selectedTab = DEFAULT_TAB
     return {
-      books,
+      products,
       searchString: null,
-      visibleBooks: books,
+      visibleProducts: products[selectedTab],
       expanded: new Set(),
       wishset: new Set(wishlist),
       wishlist,
-      selectedTab: DEFAULT_TAB,
+      selectedTab,
     }
   },
   methods: {
     tabs() {
       const wishcount = this.wishcount()
       return [
-        { id: 'all-books', title: 'Todos os Livros' },
+        { id: 'eletro', title: 'Eletrodomésticos' },
+        { id: 'sport', title: 'Esporte' },
+        { id: 'books', title: 'Livros' },
         { id: 'wishlist', title: 'Minha Lista (' + (wishcount === 0 ? 'vazia' : wishcount) + ')' },
       ]
     },
+    productsForCurrentTab() {
+      return this.products[this.selectedTab] || []
+    },
     selectTab(tabId) {
       this.selectedTab = tabId
+      this.visibleProducts = this.productsForCurrentTab()
     },
-    booklist() {
+    productList() {
       if (this.selectedTab === 'wishlist')
         return this.wishlist
-      if (this.selectedTab === 'all-books')
-        return this.visibleBooks
+      else
+        return this.visibleProducts
     },
     search(searchString) {
       this.searchString = searchString
       const bookMatches = parseSearch(searchString)
       if (!bookMatches) {
-        this.visibleBooks = this.books
+        this.visibleProducts = this.productsForCurrentTab()
         return
       }
-      this.visibleBooks = this.books.filter(bookMatches)
+      this.visibleProducts = this.productsForCurrentTab().filter(bookMatches)
     },
     toggleExpanded(book) {
       if (this.expanded.has(book)) {
@@ -111,7 +91,7 @@ const app = Vue.createApp({
       return this.expanded.has(book)
     },
     bookDetails(book) {
-      const b = BOOK_DETAIL_FIELDS
+      const b = book.detailFields
         .flatMap(([fieldKey, title]) => {
           const text = book[fieldKey]
           if (text) {
