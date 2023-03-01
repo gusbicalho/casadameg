@@ -5,15 +5,26 @@
   <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
   <script src="products.js" defer></script>
   <script src="script.js" defer></script>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"> -->
+  <link rel="stylesheet" href="classless.css">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Casa da Meg</title>
 
   <style>
+    :root {
+      /* foreground   | background color */
+      --cfg:   #cecbc4; --cbg:    #000;
+      --cdark: #999;    --clight: #333;
+      --cmed:  #566;
+      --clink: #1ad;
+      --cemph: #0b9;    --cemphbg: #0b91;
+      --cemphlight: #A8E7CC;
+    }
+
     body {
-      color: black;
+      padding-top: 0;
     }
 
     #hero {
@@ -23,8 +34,18 @@
       max-width: 800px;
     }
 
-    #search {
-      padding: 0.5rem
+    .search {
+      display: flex;
+    }
+
+    .search input[type=text] {
+      background-color: var(--clight);
+      border: 1px solid var(--cemph);
+      margin: 0.5em;
+      color: var(--cfg);
+    }
+    .search input::placeholder {
+      color: var(--cdark);
     }
 
     .products {
@@ -34,24 +55,27 @@
       flex-wrap: wrap;
       list-style: none;
       justify-content: space-around;
+      margin: 0;
+      padding: 0;
     }
 
     .products li {
       margin: 2px;
-      border: 1px solid #CCC;
+      border: 1px solid var(--cdark);
+      /* color: var(--cemphlight); */
     }
 
     .book {
       display: flex;
       flex-direction: column;
-      width: 20rem;
+      width: 13rem;
       max-width: 45%;
-      padding: 0.5rem;
+      padding: 0.3rem;
     }
 
     .book.expanded {
       width: 95%;
-      max-width: 50rem;
+      max-width: 26rem;
     }
 
     .book img {
@@ -80,14 +104,19 @@
       font-weight: bold;
     }
 
+    .book .toggle-details {
+      display: block;
+      text-align: center;
+    }
+
     .book .actions {
       display: flex;
-      justify-content: center;
+      flex-direction: column;
     }
 
     .book .actions button {
       margin: 0;
-      padding: 0 1rem;
+      padding: 0.5rem 1rem;
     }
 
     .tabs {
@@ -95,19 +124,28 @@
       flex-direction: column;
     }
 
-    .tabs .controls {
+    .tabs button {
       flex: 0;
       align-self: stretch;
-      display: flex;
-      flex-direction: row;
+      display: block;
+      margin: 2px;
     }
 
-    .tabs .controls button {
-      display: block;
-      flex: 1;
-      margin: 2px;
-      border-radius: 0;
+    @media (min-width: 25rem) {
+      .tabs {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media (min-width: 40rem) {
+      .tabs {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+    }
 
+    .tabs button.tabSelected {
+      filter: brightness(92%); color: var(--cemph); border-color: var(--cemph);
     }
 
     .wishlist .empty {
@@ -116,15 +154,13 @@
     }
 
     .wishlist .actions {
-      padding: 1rem 1rem;
       display: flex;
       flex-direction: row;
     }
 
     .wishlist .actions button {
       flex: 1;
-      margin: 0.1rem;
-      padding: 0;
+      padding: 0.5rem 0.1rem;
     }
 
   </style>
@@ -134,18 +170,13 @@
   <div id="app">
     <img src="capa.jpg" id="hero" />
     <div class="tabs">
-      <div class="controls">
-        <button v-for="tab in tabs()" :key="tab.id" @click="() => this.selectTab(tab.id)"
-          :class="{ 'button-outline': selectedTab === tab.id, 'button-clear': selectedTab !== tab.id }">
-          {{tab.title}}</button>
-      </div>
+      <button v-for="tab in tabs()" :key="tab.id" @click="() => this.selectTab(tab.id)"
+        :class="{ 'tabSelected': selectedTab === tab.id }">
+        {{tab.title}}</button>
     </div>
-    <!-- All Books tab -->
     <div v-if="selectedTab !== 'wishlist'" class="search">
-      <div id="search">
-        <input type="text" :value="searchString" @input="event => this.search(event.target.value)"
-          placeholder="Busca" />
-      </div>
+      <input type="text" :value="searchString" @input="event => this.search(event.target.value)"
+        placeholder="Busca" />
     </div>
     <div v-if="selectedTab === 'wishlist'" class="wishlist">
       <div v-if="isWishlistEmpty()" class="empty">
@@ -167,11 +198,13 @@
             <strong>{{detail.title}}:</strong> {{detail.text}}
           </div>
         </div>
-        <button v-if="isExpanded(book)" class="button-clear" @click="() => toggleExpanded(book)">Ver menos</button>
-        <button v-else="isExpanded(book)" class="button-clear" @click="() => toggleExpanded(book)">Ver mais</button>
+        <a class="toggle-details" @click="() => toggleExpanded(book)">
+          <span v-if="isExpanded(book)">Ver menos</span>
+          <span v-else="isExpanded(book)">Ver mais</span>
+        </a>
         <div class="price">{{book.price}}</div>
         <div class="actions">
-          <button v-if="this.isInWishlist(book)" @click="() => this.removeFromWishlist(book)" class="button-clear">Não quero mais 😞</button>
+          <button v-if="this.isInWishlist(book)" @click="() => this.removeFromWishlist(book)">Não quero mais 😞</button>
           <button v-else="this.isInWishlist(book)" @click="() => this.addToWishlist(book)">Bota na lista! ❤️</button>
         </div>
       </li>
