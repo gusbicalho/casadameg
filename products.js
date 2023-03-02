@@ -57,7 +57,7 @@ const books = [
     "length": "",
     "copies": 1
   },
-  {
+  /*{
     "title": "As Cronicas de Narnia - Volume Unico (Em Portugues do Brasil)",
     "image": "0591bc3cb9fce066c5b917b851fb986894",
     "creators": "Clive Staples Lewis",
@@ -72,7 +72,7 @@ const books = [
     "price": "R$ 15,00",
     "length": 751,
     "copies": 1
-  },
+  },*/
   {
     "title": "Bro Code (Em Inglês)",
     "image": "tqc441acc5ec4180be4924e392df7cc42e",
@@ -457,7 +457,7 @@ const books = [
     "length": "",
     "copies": 1
   },
-  {
+  /*{
     "title": "Batman. Arkham Knight (Em Português do Brasil)",
     "image": "aq3e3715c8390f0e0e47ace799ab53b18f",
     "creators": "Marv Wolfman",
@@ -472,7 +472,7 @@ const books = [
     "price": "R$ 25,00",
     "length": "",
     "copies": 1
-  },
+  }, */
   {
     "title": "Games People Play: The Basic Handbook of Transactional Analysis.",
     "image": "akecb1f4a4ee989b642f665bd3ef5c01fa",
@@ -553,7 +553,7 @@ const books = [
     "length": "",
     "copies": 1
   },
-  {
+  /*{
     "title": "The Design of Everyday Things: Revised and Expanded Edition",
     "image": "lr5a706cf3ebc7bfe2a9399b4a8cd72120",
     "creators": "Don Norman",
@@ -568,7 +568,7 @@ const books = [
     "price": "R$ 20,00",
     "length": 384,
     "copies": 1
-  },
+  },*/
   {
     "title": "De Zero A Um (Em Portugues do Brasil)",
     "image": "m4646aa8d2cc74b59b5cb2d0b646903560",
