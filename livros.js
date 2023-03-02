@@ -9,17 +9,7 @@ const makeSearchString = (object, fields) =>
 
 const compareBySearchString = (a, b) => a.searchString.localeCompare(b.searchString)
 
-function bookSearchString({ title, creators, ean_isbn13, upc_isbn10, description, notes }) {
-  const searchString = [title, creators, ean_isbn13, upc_isbn10, description, notes]
-    .filter((v) => !!v)
-    .join(' ')
-    .toUpperCase()
-    .replace(/\W/g, ' ')
-    .replace(/\s+/g, ' ')
-  return searchString
-}
-
-window.Books = [
+const books = [
   {
     "title": "Vincent - Quadrinhos (Em Português do Brasil)",
     "image": "gv0923fd87c6009d694e28f9d2fff2d8dd",
@@ -1425,10 +1415,10 @@ window.Books = [
     "length": "",
     "copies": 1
   }
-].map((book) => {
+].map((product) => {
   return {
-    ...book,
-    searchString: makeSearchString(book, [
+    ...product,
+    searchString: makeSearchString(product, [
       'title',
       'creators',
       'ean_isbn13',
@@ -1446,3 +1436,31 @@ window.Books = [
     ]
   }
 }).sort(compareBySearchString)
+//----------------------------------------------ESPORTE---------------------------------------------------
+const sport = [
+  //só isso
+  /*{
+    title: "Bicicleta",
+    // image sem o .jpg "image": "gv0923fd87c6009d694e28f9d2fff2d8dd",
+    notes: "Vermelha",
+    price: "R$ 20.000,00"
+  }, */
+].map((product) => {
+  return {
+    ...product,
+    // o que entra na busca
+    searchString: makeSearchString(product, [
+      'title',
+      'notes',
+    ]),
+    // "ver mais"
+    detailFields: [
+      ["notes", "Notas"],
+    ]
+  }
+}).sort(compareBySearchString)
+
+window.Products = {
+  books,
+  sport,
+}
