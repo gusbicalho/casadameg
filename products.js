@@ -649,7 +649,7 @@ const books = [
     "length": 374,
     "copies": 1
   },
-  {
+  /*{
     "title": "Star Wars - Livro 1: O Caminho Jedi (Em Portugues do Brasil)",
     "image": "ph1b06d67d291283dcbeb2b57e7f97ae74",
     "creators": "Daniel Wallace",
@@ -664,7 +664,7 @@ const books = [
     "price": "R$ 35,00",
     "length": "",
     "copies": 1
-  },
+  },*/
   {
     "title": "Doctor Who. Quando Cair O Verão E Outras Histórias (Em Português do Brasil)",
     "image": "a44fdc5308232d30a3c067ca4eac3f9eed",
@@ -745,7 +745,7 @@ const books = [
     "length": "",
     "copies": 1
   },
-  {
+  /*{
     "title": "Silmarillion, O",
     "image": "j527f6a266ea323f4734bce801a55533b8",
     "creators": "J.R.R. Tolkien",
@@ -760,7 +760,7 @@ const books = [
     "price": "R$ 10,00",
     "length": "",
     "copies": 1
-  },
+  },*/
   {
     "title": "O Fim da Infancia (Em Portugues do Brasil)",
     "image": "00daeb932dcf9adc13393b7df0dd07149d",
