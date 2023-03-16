@@ -51,6 +51,7 @@ const app = Vue.createApp({
       return [
         { id: 'eletro', title: 'Eletrodomésticos' },
         { id: 'sport', title: 'Esporte' },
+        { id: 'moveis', title: 'Móveis' },
         { id: 'books', title: 'Livros' },
         { id: 'wishlist', title: 'Minha Lista (' + (wishcount === 0 ? 'vazia' : wishcount) + ')' },
       ]

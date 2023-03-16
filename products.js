@@ -1438,13 +1438,33 @@ const books = [
 }).sort(compareBySearchString)
 //----------------------------------------------ESPORTE---------------------------------------------------
 const sport = [
-  //só isso
-  /*{
-    title: "Bicicleta",
+  {
+    title: "Bicicleta Aro 27",
     // image sem o .jpg "image": "gv0923fd87c6009d694e28f9d2fff2d8dd",
-    notes: "Vermelha",
-    price: "R$ 20.000,00"
-  }, */
+    notes: "Marca: Rockrider, Branca, Aro 27, Tamanho M, acompanha paralamas, banco gel e banco original, capacete branco tamanho M, descanso de apoio, único dono, garantia de quadro vitalício, com nota fiscal",
+    price: "R$ 700,00",
+  },
+  // {
+  //   //SOMENTE APÓS MAIO title: "Bicicleta Soul Aro 29",
+  //   // "image": "gv0923fd87c6009d694e28f9d2fff2d8dd",
+  //   notes: "Marca: Soul, Vermelha, Aro 29, Tamanho S, acompanha 2 suportes para caramanhola, campainha e pedal original. único dono, SEGURO Bike Mulher válido até Setembro de 2023, com nota fiscal",
+  //   price: "R$ 5000,00",
+  // },
+  {
+    title: "Suporte de parede para bicicleta",
+    notes: "novo",
+    price: "R$ 50,00",
+  },
+  {
+    title: "Suporte de chão para bicicleta",
+    notes: "novo",
+    price: "R$ 30,00",
+  },
+  {
+    title: "Patins",
+    notes: "xxx",
+    price: "R$ 100,00",
+  },
 ].map((product) => {
   return {
     ...product,
@@ -1460,7 +1480,105 @@ const sport = [
   }
 }).sort(compareBySearchString)
 
+const moveis = [
+  {
+    title: "Mesa branca grande",
+    notes: "de graça, venha buscar",
+    price: "R$0,00"
+  },
+  {
+    title: "Mesa pequena",
+    notes: "de graça, venha buscar",
+    price: "R$0,00",
+  },
+  {
+    title: "Mesa Marrom",
+    notes: "xxx",
+    price: "R$300,,00"
+  },
+  {
+    title: "Mesa + 4 cadeiras",
+    notes: "xxx",
+    price: "R$xx,,xx"
+  },
+  {
+    title: "2 Cadeiras de praia",
+    notes: "xxx",
+    price: "R$60,,00"
+  },
+  {
+    title: "Cabideiro de piso",
+    notes: "Tok Stok",
+    price: "R$150,00",
+  },
+  {
+    title: "Guarda Roupa pequeno",
+    notes: "Duas portas, 2 gavetas, 2 prateleiras internas",
+    price: "R$xx",
+  },
+].map((product) => {
+  return {
+    ...product,
+    // o que entra na busca
+    searchString: makeSearchString(product, [
+      'title',
+      'notes',
+    ]),
+    // "ver mais"
+    detailFields: [
+      ["notes", "Notas"],
+    ]
+  }
+}).sort(compareBySearchString)
+
+const eletro = [
+  {
+    title: "Airfryer",
+    notes: "Em ótimo estado, precisa de um lar que a valorizem de verdade.",
+    price: "R$250,00",
+  },
+  {
+    title: "Crepeira",
+    notes: "Usada 1 vez",
+    price: "R$80,00",
+  },
+  {
+    title: "Liquidificador",
+    notes: "",
+    price: "R$80,00",
+  },
+  {
+    title: "Nespresso",
+    notes: "Em ótimo estado, já que os humanos preferem café coado",
+    price: "R$250,00",
+  },
+  {
+    title: "Ventilador",
+    notes: "",
+    price: "R$xx",
+  },
+
+
+
+]
+  .map((product) => {
+    return {
+      ...product,
+      // o que entra na busca
+      searchString: makeSearchString(product, [
+        'title',
+        'notes',
+      ]),
+      // "ver mais"
+      detailFields: [
+        ["notes", "Notas"],
+      ]
+    }
+  })
+
 window.Products = {
   books,
   sport,
+  moveis,
+  eletro,
 }
