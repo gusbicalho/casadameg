@@ -178,7 +178,6 @@
     <div v-if="selectedTab === 'wishlist'" class="wishlist">
       <div v-if="isWishlistEmpty()" class="empty">
         Nada aqui ainda...<br><br>
-        <button @click="() => this.selectTab('all-books')">Ver todos os livros</button>
       </div>
       <div v-else="isWishlistEmpty()" class="actions">
         <button @click="() => this.whatsappWishlist()">Pedir por WhatsApp 📞</button>
