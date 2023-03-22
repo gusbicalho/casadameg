@@ -89,7 +89,7 @@ const books = [
     "length": 192,
     "copies": 1
   },
-  {
+  /*{
     "title": "Playbook: O Manual da Conquista (Em Portugues do Brasil)",
     "image": "nh5eeaec9e209c01c0b6ae6d7cf4f5c91f",
     "creators": "Barney Stinson",
@@ -104,7 +104,7 @@ const books = [
     "price": "R$ 8,00",
     "length": "",
     "copies": 1
-  },
+  },*/
   {
     "title": "O Código BRO",
     "image": "ys3f02bd4b2e6db4b3ae7a775fa22a8048",
@@ -377,7 +377,7 @@ const books = [
     "length": "",
     "copies": 1
   },
-  {
+  /*{
     "title": "Fundação (Em Português do Brasil)",
     "image": "1167468711f715e18ef68286bae5cf58cfb51a51e",
     "creators": "Isaac Asimov",
@@ -392,7 +392,7 @@ const books = [
     "price": "R$ 10,00",
     "length": 240,
     "copies": 1
-  },
+  },*/
   {
     "title": "Os Robôs da Alvorada (Em Português do Brasil)",
     "image": "0s389ad83145feb21e7f4f23da16254d1a",
@@ -474,19 +474,19 @@ const books = [
     "copies": 1
   }, */
   {
-    "title": "Games People Play: The Basic Handbook of Transactional Analysis.",
-    "image": "akecb1f4a4ee989b642f665bd3ef5c01fa",
-    "creators": "Eric Berne",
-    "first_name": "Eric",
-    "last_name": "Berne",
-    "ean_isbn13": "9780345410030",
-    "upc_isbn10": "0345410033",
-    "description": "We think we&rsquo;re relating to other people&ndash;but actually we&rsquo;re all playing games.Forty years ago, Games People Play revolutionized our understanding of what really goes on during our most basic social interactions. More than five million copies later, Dr. Eric Berne&rsquo;s classic is as astonishing&ndash;and revealing&ndash;as it was on the day it was first published. This anniversary edition features a new introduction by Dr. James R. Allen, president of the International Transactional Analysis Association, and Kurt Vonnegut&rsquo;s brilliant Life magazine review from 1965.We play games all the time&ndash;sexual games, marital games, power games with our bosses, and competitive games with our friends. Detailing status contests like &ldquo;Martini&rdquo; (I know a better way), to lethal couples combat like &ldquo;If It Weren&rsquo;t For You&rdquo; and &ldquo;Uproar,&rdquo; to flirtation favorites like &ldquo;The Stocking Game&rdquo; and &ldquo;Let&rsquo;s You and Him Fight,&rdquo; Dr. Berne exposes the secret ploys and unconscious maneuvers that rule our intimate lives.Explosive when it first appeared, Games People Play is now widely recognized as the most original and influential popular psychology book of our time. It&rsquo;s as powerful and eye-opening as ever.",
-    "publisher": "Ballantine Books",
-    "publish_date": "1996-08-27",
-    "notes": "",
-    "price": "R$ 30,00",
-    "length": 216,
+    "title": "Cages",
+   // "image": "akecb1f4a4ee989b642f665bd3ef5c01fa",
+    "creators": "Dave McKean",
+    "first_name": "Dave",
+    "last_name": "McKean",
+    "ean_isbn13": "9781595823168",
+    //"upc_isbn10": "0345410033",
+    //"description": "",
+    "publisher": "Dark Horse",
+    "publish_date": "2010",
+    //"notes": "Capa Dura",
+    "price": "R$ 450,00",
+    "length": 496,
     "copies": 1
   },
   {
@@ -1127,7 +1127,7 @@ const books = [
     "length": 373,
     "copies": 1
   },
-  {
+  /*{
     "title": "Box Trilogia SPRAWL: Neuromancer + Count Zero + Mona Lisa Overdrive",
     "creators": "William Gibson",
     "first_name": "William",
@@ -1141,7 +1141,7 @@ const books = [
     "price": "R$ 60,00",
     "length": "",
     "copies": 1
-  },
+  },*/
   {
     "title": "O Romance da Ciência",
     "creators": "Carl Sagan",
