@@ -50,6 +50,7 @@ const app = Vue.createApp({
       const wishcount = this.wishcount()
       return [
         { id: 'books', title: 'Livros' },
+        { id: 'boardgames', title: 'Boardgames' },
         { id: 'eletro', title: 'Eletrodomésticos' },
         { id: 'sport', title: 'Esporte' },
         { id: 'moveis', title: 'Móveis' },
@@ -132,15 +133,15 @@ const app = Vue.createApp({
     whatsappWishlist() {
       const phone = "5519983533555"
       const text =
-        "Oi, vi seu site e me interessei por esses livros aqui:\n\n" +
+        "Oi, vi seu site e me interessei por esses itens aqui:\n\n" +
         this.wishlist.map(({ creators, title, price }) => `${price} - ${creators} - ${title}`).join('\n')
       const whatsapp = `https://api.whatsapp.com/send?phone=${encodeURIComponent(phone)}&text=${encodeURIComponent(text)}`
       window.open(whatsapp)
     },
     emailWishlist() {
-      const subject = "Oi, quero esses livros!"
+      const subject = "Oi, quero esses itens!"
       const body =
-        "Oi, vi seu site e me interessei por esses livros aqui:\n\n" +
+        "Oi, vi seu site e me interessei por esses itens aqui:\n\n" +
         this.wishlist.map(({ creators, title, price }) => `${price} - ${creators} - ${title}`).join('\n')
       const mailto = `mailto:Casa da Meg<mgarcia.si01@gmail.com>?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
       window.open(mailto)

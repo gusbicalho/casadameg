@@ -10,7 +10,7 @@ const makeSearchString = (object, fields) =>
 const compareBySearchString = (a, b) => a.searchString.localeCompare(b.searchString)
 
 const books = [
-  {
+  /*{
     "title": "Vincent - Quadrinhos (Em Português do Brasil)",
     "image": "gv0923fd87c6009d694e28f9d2fff2d8dd",
     "creators": "Barbara Stok",
@@ -25,7 +25,7 @@ const books = [
     "price": "R$ 20,00",
     "length": "",
     "copies": 1
-  },
+  },*/
   {
     "title": "The Structure and Dynamics of Organizations and Groups",
     "creators": "Eric Berne",
@@ -361,7 +361,7 @@ const books = [
     "length": "",
     "copies": 1
   },
-  {
+  /*{
     "title": "Akira - Volume 1 (Em Português do Brasil)",
     "image": "jh1ba4f3ce3e1456ba678180d590059a59",
     "creators": "Katsuhiro Otomo",
@@ -376,7 +376,7 @@ const books = [
     "price": "R$ 40,00",
     "length": "",
     "copies": 1
-  },
+  },*/
   /*{
     "title": "Fundação (Em Português do Brasil)",
     "image": "1167468711f715e18ef68286bae5cf58cfb51a51e",
@@ -475,7 +475,7 @@ const books = [
   }, */
   {
     "title": "Cages",
-    // "image": "akecb1f4a4ee989b642f665bd3ef5c01fa",
+    "image": "dave-mckean-hiroki-endo-cages-2353700929",
     "creators": "Dave McKean",
     "first_name": "Dave",
     "last_name": "McKean",
@@ -484,7 +484,7 @@ const books = [
     //"description": "",
     "publisher": "Dark Horse",
     "publish_date": "2010",
-    //"notes": "Capa Dura",
+    //"notes": "",
     "price": "R$ 450,00",
     "length": 496,
     "copies": 1
@@ -1325,6 +1325,7 @@ const books = [
   },
   {
     "title": "The Sandman Overture 1",
+    "image": "thesandmanoverture1",
     "creators": "Neil Gaiman, J. H. Williams III",
     "first_name": "Neil",
     "last_name": "Gaiman",
@@ -1340,6 +1341,7 @@ const books = [
   },
   {
     "title": "The Sandman Overture 2",
+    "image": "thesandmanoverture2",
     "creators": "Neil Gaiman, J. H. Williams III",
     "first_name": "Neil",
     "last_name": "Gaiman",
@@ -1355,6 +1357,7 @@ const books = [
   },
   {
     "title": "The Sandman Overture 3",
+    "image": "thesandmanoverture3",
     "creators": "Neil Gaiman, J. H. Williams III",
     "first_name": "Neil",
     "last_name": "Gaiman",
@@ -1513,7 +1516,7 @@ const books = [
     "length": 304,
     "copies": 1
   },
-  {
+  /*{
     "title": "The Knowledge: How to Rebuild Civilization in the Aftermath of a Cataclysm",
     "image": "lewis-dartnell-knowledge-the-1347358960",
     "creators": "Lewis Dartnell",
@@ -1526,7 +1529,7 @@ const books = [
     "price": "R$ 75,00",
     "length": 352,
     "copies": 1
-  },
+  },*/
   {
     "title": "Só Pode Ser Brincadeira, Sr. Feynman!",
     //"image": "",
@@ -1661,20 +1664,221 @@ const books = [
     ]
   }
 }).sort(compareBySearchString)
+//---------------------------------------------BOAREDGAMES-----------------------------------------------
+const boardgames = [
+  {
+    "title": "Star Realms",
+    "Idioma": "Português",
+    "fornecedor": "Devir",
+    "notes": "",
+    "peso": 285,
+    "price": "R$ 75,00"
+  },
+  {
+    "title": "Pokémon Sol e Lua - Maré Brilhante",
+    "Idioma": "Português",
+    "fornecedor": "Copag",
+    "notes": "Caixa com instruções danificada, caixa do baralho em perfeito estado",
+    "peso": 200,
+    "price": "R$ 40,00"
+  },
+  {
+    "title": "Black Stories 2",
+    "Idioma": "Português",
+    "fornecedor": "Galápagos",
+    "notes": "",
+    "peso": 215,
+    "price": "R$ 28,00"
+  },
+  {
+    "title": "Parade",
+    "Idioma": "Português",
+    "fornecedor": "Fire on board",
+    "notes": "",
+    "peso": 280,
+    "price": "R$ 100,00"
+  },
+  {
+    "title": "Boss Monster",
+    "Idioma": "Inglês",
+    "fornecedor": "Brotherwise Games",
+    "notes": "Cartas acompanham sleeve",
+    "peso": 515,
+    "price": "R$ 130,00"
+  },
+  {
+    "title": "Cards Against Humanity",
+    "Idioma": "Inglês",
+    "fornecedor": "",
+    "notes": "",
+    "peso": 1055,
+    "price": "R$ 280,00"
+  },
+  {
+    "title": "Splendor",
+    "Idioma": "Inglês",
+    "fornecedor": "",
+    "notes": "não é original! Cartas com sleeve",
+    "peso": 295,
+    "price": "R$ 50,00"
+  },
+  {
+    "title": "Timeline",
+    "Idioma": "Português",
+    "fornecedor": "Galápagos",
+    "notes": "",
+    "peso": 125,
+    "price": "R$ 60,00"
+  },
+  {
+    "title": "War Cards",
+    "Idioma": "Português",
+    "fornecedor": "Grow",
+    "notes": "novo",
+    "peso": 210,
+    "price": "R$ 45,00"
+  },
+  {
+    "title": "The Shadow Word",
+    "Idioma": "Inglês",
+    "fornecedor": "Magical Myroramas",
+    "notes": "",
+    "peso": 430,
+    "price": "R$ 75,00"
+  },
+  {
+    "title": "Star Trek Missions",
+    "Idioma": "Inglês",
+    "fornecedor": "Wizkids",
+    "notes": "",
+    "peso": 285,
+    "price": "R$ 150,00"
+  },
+  {
+    "title": "Quebra Cabeça Rei Leão (edição Cinemark, com caixa \"VHS\")",
+    "Idioma": "Português",
+    "fornecedor": "Cinemark",
+    "notes": "",
+    "peso": 250,
+    "price": "R$ 25,00"
+  },
+  {
+    "title": "Quebra Cabeça Harry Potter - Hogwarts Express",
+    "Idioma": "Português",
+    "fornecedor": "Omelete Box",
+    "notes": "1000 peças (dimensão do quebra cabeça montado 48,5 cm X 70,8 cm)",
+    "peso": 460,
+    "price": "R$ 70,00"
+  },
+  {
+    "title": "The resistence",
+    "Idioma": "Português",
+    "fornecedor": "Galápagos",
+    "notes": "",
+    "peso": 560,
+    "price": "R$ 125,00"
+  },
+  {
+    "title": "Quebra Cabeça - Vielas Francesas",
+    "Idioma": "Português",
+    "fornecedor": "Game Office",
+    "notes": "1000 Peças",
+    "peso": 485,
+    "price": "R$ 40,00"
+  },
+  {
+    "title": "Quebre Cabeça - Basílica de São Pedro",
+    "Idioma": "",
+    "fornecedor": "Game Office",
+    "notes": "500 Peças",
+    "peso": 380,
+    "price": "R$ 35,00"
+  },
+  {
+    "title": "Flash Point ao resgate",
+    "Idioma": "Português",
+    "fornecedor": "Funbox Jogos",
+    "notes": "",
+    "peso": 1030,
+    "price": "R$ 300,00"
+  },
+  {
+    "title": "Terraforming Mars",
+    "Idioma": "Português",
+    "fornecedor": "Meeple BR",
+    "notes": "Cartas acompamham sleeve",
+    "peso": 1720,
+    "price": "R$ 350,00"
+  },
+  {
+    "title": "Colonizadores de Catan",
+    "Idioma": "Português",
+    "fornecedor": "Grow",
+    "notes": "Caixa arranhada pela dona da casa",
+    "peso": 830,
+    "price": "R$ 220,00"
+  },
+  {
+    "title": "Throw Throw Burrito - Kickstarter Edition",
+    "Idioma": "Inglês",
+    "fornecedor": "Exploding Kittens",
+    "notes": "Kickstarter Edition - Cartas acompanham sleeve",
+    "peso": 690,
+    "price": "R$ 250,00"
+  },
+  {
+    "title": "Throw Throw Burrito - Original Edition",
+    "Idioma": "Inglês",
+    "fornecedor": "Exploding Kittens",
+    "notes": "novo",
+    "peso": 720,
+    "price": "R$ 150,00"
+  },
+  {
+    "title": "Star Wars X-Wing",
+    "Idioma": "Português",
+    "fornecedor": "Galápagos",
+    "notes": "",
+    "peso": 695,
+    "price": "R$ 300,00"
+  },
+  {
+    "title": "Unlock Escape Adventures - the island of doctor goorse",
+    "Idioma": "Inglês",
+    "fornecedor": "",
+    "notes": "",
+    "peso": 255,
+    "price": "R$ 50,00"
+  }
+].map((product) => {
+  return {
+    ...product,
+    searchString: makeSearchString(product, [
+      'title',
+      'notes',
+    ]),
+    detailFields: [
+      ["Idioma", "Idioma"],
+      ["fornecedor", "Fornecedor"],
+      ["notes", "Notas"],
+      ["peso", "Peso (g)"],
+    ]
+  }
+}).sort(compareBySearchString)
 //----------------------------------------------ESPORTE---------------------------------------------------
 const sport = [
   {
     title: "Bicicleta Aro 27",
-    // image sem o .jpg "image": "gv0923fd87c6009d694e28f9d2fff2d8dd",
+   // "image": "bicicletabranca",
     notes: "Marca: Rockrider, Branca, Aro 27, Tamanho M, acompanha paralamas, banco gel e banco original, capacete branco tamanho M, descanso de apoio, único dono, garantia de quadro vitalício, com nota fiscal",
     price: "R$ 700,00",
   },
-  // {
-  //   //SOMENTE APÓS MAIO title: "Bicicleta Soul Aro 29",
-  //   // "image": "gv0923fd87c6009d694e28f9d2fff2d8dd",
-  //   notes: "Marca: Soul, Vermelha, Aro 29, Tamanho S, acompanha 2 suportes para caramanhola, campainha e pedal original. único dono, SEGURO Bike Mulher válido até Setembro de 2023, com nota fiscal",
-  //   price: "R$ 5000,00",
-  // },
+ {
+    title: "Bicicleta Soul Aro 29",
+    "image": "bicicletasoul",
+    notes: "Marca: Soul, Vermelha, Aro 29, Tamanho S, acompanha 2 suportes para caramanhola, campainha e pedal original. único dono, SEGURO Bike Mulher válido até Setembro de 2023, com nota fiscal",
+    price: "R$ 5000,00",
+ },
   {
     title: "Suporte de parede para bicicleta",
     notes: "novo",
@@ -1724,12 +1928,12 @@ const moveis = [
   {
     title: "Mesa + 4 cadeiras",
     notes: "xxx",
-    price: "R$xx,,xx"
+    price: "R$xx,xx"
   },
   {
     title: "2 Cadeiras de praia",
     notes: "xxx",
-    price: "R$60,,00"
+    price: "R$60,00"
   },
   {
     title: "Cabideiro de piso",
@@ -1806,4 +2010,5 @@ window.Products = {
   sport,
   moveis,
   eletro,
+  boardgames,
 }
