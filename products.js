@@ -761,7 +761,7 @@ const books = [
     "length": "",
     "copies": 1
   },*/
-  {
+  /*{
     "title": "O Fim da Infancia (Em Portugues do Brasil)",
     "image": "00daeb932dcf9adc13393b7df0dd07149d",
     "creators": "Arthur C. Clarke",
@@ -776,7 +776,7 @@ const books = [
     "price": "R$ 15,00",
     "length": "",
     "copies": 1
-  },
+  }, */
   {
     "title": "Star Wars: Jedi Academy",
     "image": "7jce0d55527f78d92a7a56c77af76c2b61",
@@ -793,7 +793,7 @@ const books = [
     "length": 160,
     "copies": 1
   },
-  {
+  /*{
     "title": "Hobbit - Edicao 4 (Em Portugues do Brasil)",
     "image": "bj00a83176a05611faf8afdb8b48d488e8",
     "creators": "J. R. R. Tolkien",
@@ -808,7 +808,7 @@ const books = [
     "price": "R$ 10,00",
     "length": "",
     "copies": 1
-  },
+  },*/
   {
     "title": "Os Despossuídos (Em Português do Brasil)",
     "image": "k8d15773cb71be0da75d9fa33ef3a48b3c",
