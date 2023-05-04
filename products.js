@@ -1877,7 +1877,7 @@ const sport = [
     title: "Bicicleta Soul Aro 29",
     "image": "bicicletasoul",
     notes: "Marca: Soul, Vermelha, Aro 29, Tamanho S, acompanha 2 suportes para caramanhola, campainha e pedal original. único dono, SEGURO Bike Mulher válido até Setembro de 2023, com nota fiscal",
-    price: "R$ 5000,00",
+    price: "R$ 4500,00",
  },
   {
     title: "Suporte de parede para bicicleta",
@@ -1977,14 +1977,33 @@ const eletro = [
     price: "R$80,00",
   },
   {
-    title: "Nespresso",
+    title: "Robô Aspirador Eufy by Anker BoostIQ RoboVac 11S (Slim) Bivolt",
+    image: "eufy",
+    notes: "Detalhes: https://a.co/d/5G0EuEV",
+    price: "R$600,00",
+  },
+  {
+    title: "Pipoqueira Mondial Popflix 110V",
+    image: "pipoqueira",
+    //notes: "",
+    price: "R$120,00",
+  },
+  {
+    title: "Nespresso Essenza Mini Cafeteira 110V",
+    image: "nespresso",
     notes: "Em ótimo estado, já que os humanos preferem café coado",
     price: "R$250,00",
   },
   {
+    title: "Máquina de espresso Tramontina by Breville Express Pro em Aço Inox com Moedor 127 V",
+    image: "breville",
+    notes: "Em ótimo estado, mais detalhes no site da Tramontina: https://www.tramontina.com.br/cafeteira-eletrica-tramontina-by-breville-express-pro-em-aco-inox-com-moedor-2-l-127-v/69066011.html",
+    price: "R$3500,00",
+  },
+  {
     title: "Ventilador",
     notes: "",
-    price: "R$xx",
+    price: "R$50,00"
   },
 
 
