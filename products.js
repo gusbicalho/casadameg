@@ -1916,35 +1916,37 @@ const moveis = [
     price: "R$0,00"
   },
   {
-    title: "Mesa pequena",
-    notes: "de graça, venha buscar",
+    title: "Escrivaninha branca pequena",
+    notes: "Possui uma gaveta, está meio capenga, mas é de graça, só vir buscar.",
     price: "R$0,00",
   },
   {
-    title: "Mesa Marrom",
-    notes: "xxx",
-    price: "R$300,,00"
+    title: "Mesa para escritório Marrom",
+    notes: "",
+    price: "R$300,00"
   },
   {
-    title: "Mesa + 4 cadeiras",
-    notes: "xxx",
-    price: "R$xx,xx"
+    title: "Conjunto Mesa + 4 cadeiras dobráveis",
+    image: "mesabar",
+    notes: "A mesa está com algumas marcas de calor",
+    price: "R$200,00"
   },
   {
     title: "2 Cadeiras de praia",
-    notes: "xxx",
+    notes: "",
     price: "R$60,00"
   },
   {
     title: "Cabideiro de piso",
-    notes: "Tok Stok",
+    image: "cabideiro",
+    notes: "Preto, Tok Stok. referência: https://encurtador.com.br/ajoP8",
     price: "R$150,00",
   },
-  {
+  /*{
     title: "Guarda Roupa pequeno",
     notes: "Duas portas, 2 gavetas, 2 prateleiras internas",
     price: "R$xx",
-  },
+  },*/
 ].map((product) => {
   return {
     ...product,
