@@ -10,6 +10,119 @@ const makeSearchString = (object, fields) =>
 const compareBySearchString = (a, b) => a.searchString.localeCompare(b.searchString)
 
 const books = [
+
+  {
+    "title": "The Inner Game of Tennis: The Ultimate Guide to the Mental Side of Peak Performance",
+    "image": "inner",
+    "creators": "W. Timothy Gallwey",
+    "ean_isbn13": 9781447288503,
+    "description": "How to improve your game and discover your true potential by increasing your concentration, willpower and confidence Described by Billie Jean King as her 'tennis bible', Timothy Gallwey's multi-million bestseller, including a new introduction from acclaimed sports psychologist Geoff Beattie, has been a phenomenon for players of all abilities since it was first published in 1972. Instead of concentrating on how to improve your technique, it starts from the understanding that 'every game is composed of two parts, an outer game and an inner game'. The former is played against opponents on the court, but the latter is a battle within ourselves as we try and overcome self-doubt and anxiety. It is often won or lost before a ball has been hit. Gallwey's revolutionary approach, built on a foundation of Zen thinking and humanistic psychology, will teach you how to develop your concentration, work on your gamesmanship and help you break bad habits. You will also learn how to trust yourself on the court and how to maintain clarity of mind throughout the match, giving you a clear psychological advantage over your opponent. Whether you are an amateur or a pro, The Inner Game of Tennis is essential reading for overcoming the self-doubt, nervousness, and lapses of concentration that can keep a player from winning. It is guaranteed to change the way you play tennis forever.",
+    "publisher": "Pan Books",
+    "Year": 2015,
+    "notes": "",
+    "Idioma": "Inglês",
+    "price": "R$ 100,00",
+    "length": 160,
+    "Peso (g)": 135
+  },
+  {
+    "title": "A Sociedade do Anel (O Senhor dos Anéis #1)",
+    "image": "lor1",
+    "creators": "John Ronald Reuel Tolkien",
+    "ean_isbn13": 9788533615557,
+    "description": "A Sociedade do Anel' é a primeira parte da obra de ficção de J. R. R. Tolkien. Numa cidadezinha indolente do Condado, um jovem hobbit é encarregado de uma imensa tarefa. Deve empreender uma perigosa viagem através da Terra-média até as Fendas da Perdição, e lá destruir o Anel do Poder - a única coisa que impede o domínio maléfico do Senhor do Escuro.",
+    "publisher": "Martins Fontes",
+    "Year": 2002,
+    "notes": "Capa Dura",
+    "Idioma": "Português",
+    "price": "R$ 65,00",
+    "length": 566,
+    "Peso (g)": 635
+  },
+  {
+    "title": "As Melhores Histórias de Viagem no Tempo",
+    "image": "viagensnotempo",
+    "creators": "Harry Turtledove/Martin H. Greenberg/Gilson César Cardoso de Sousa",
+    "ean_isbn13": 9788555390494,
+    "description": "Dentre as temáticas do universo Sci-Fi, nenhuma delas é tão popular, envolvente e plural quanto as viagens no tempo. Esta coletânea reúne, em um único volume e pela primeira vez no Brasil, dezoito contos de alguns dos gigantes do universo Sci-Fi, abrangendo cinco décadas, de 1940 a 1990, e incluindo desde \"Um Som de Trovão\", de Ray Bradbury, que inspirou o nome da famosa teoria do Efeito Borboleta, até Ursula K. LeGuin, em \"Outra História ou um Pescador do Mar Interior\", ou mesmo uma ideia impensável, como no conto do premiado Jack Dann \"Inversão do Tempo\", que propõe respostas surpreendentes para uma pergunta perturbadora: e se todos viajassem no tempo, menos você?",
+    "publisher": "Jangada",
+    "Year": 2016,
+    "notes": "",
+    "Idioma": "Português",
+    "price": "R$ 30,00",
+    "length": "",
+    "Peso (g)": 735
+  },
+  {
+    "title": "A Mão Esquerda da Escuridão",
+    "image": "ursula",
+    "creators": "Ursula Kroeber le Guin",
+    "ean_isbn13": 9788576571841,
+    "description": "Genly Ai foi enviado a Gethen com a miss&atilde;o de convencer seus governantes a se unirem a uma grande comunidade universal. Ao chegar no planeta Inverno, como &eacute; conhecido por aqueles que j&aacute; vivenciaram seu clima gelado, o experiente emiss&aacute;rio sente-se completamente despreparado para a situa&ccedil;&atilde;o que lhe aguardava. Os habitantes de Gethen fazem parte de uma cultura rica e quase medieval, estranhamente bela e mortalmente intrigante. Nessa sociedade complexa, homens e mulheres s&atilde;o um s&oacute; e nenhum ao mesmo tempo. Os indiv&iacute;duos n&atilde;o possuem sexo definido e, como resultado, n&atilde;o h&aacute; qualquer forma de discrimina&ccedil;&atilde;o de g&ecirc;nero, sendo essas as bases da vida do planeta. Mas Genly &eacute; humano demais. A menos que consiga superar os preconceitos nele enraizados a respeito dos significados de feminino e masculino, ele corre o risco de destruir tanto sua miss&atilde;o quanto a si mesmo.[...]",
+    "publisher": "Aleph",
+    "Year": "",
+    "notes": "",
+    "Idioma": "Português",
+    "price": "R$ 30,00",
+    "length": "",
+    "Peso (g)": 395
+  },
+  {
+    "title": "Cognitive Science: An Introduction to Mind and Brain",
+    "image": "cognitive",
+    "creators": "Daniel Kolak, William Hirstein, Peter Mandik, Jonathan Waskan",
+    "ean_isbn13": 9780415221016,
+    "description": "Cognitive Science is a major new guide to the central theories and problems in the study of the mind and brain. The authors clearly explain how and why cognitive science aims to understand the brain as a computational system that manipulates representations. They identify the roots of cognitive science in Descartes - who argued that all knowledge of the external world is filtered through some sort of representation - and examine the present-day role of Artificial Intelligence, computing, psychology, linguistics and neuroscience. Throughout, the key building blocks of cognitive science are clearly illustrated: perception, memory, attention, emotion, language, control of movement, learning, understanding and other important mental phenomena. Cognitive Science: presents a clear, collaborative introduction to the subject is the first textbook to bring together all the different strands of this new science in a unified approach includes illustrations and exercises to aid the student",
+    "publisher": "Routledge",
+    "Year": 2006,
+    "notes": "",
+    "Idioma": "Inglês",
+    "price": "R$ 150,00",
+    "length": 256,
+    "Peso (g)": 575
+  },
+  {
+    "title": "O Livro da Ecologia",
+    "image": "ecologia",
+    "creators": "Varios",
+    "ean_isbn13": 9786555670202,
+    "description": "",
+    "publisher": "",
+    "Year": "",
+    "notes": "Capa Dura",
+    "Idioma": "Português",
+    "price": "R$ 40,00",
+    "length": "",
+    "Peso (g)": 805
+  },
+  {
+    "title": "All You Need Is Kill - Vol.1 e 2",
+    "image": "allyouneed",
+    "creators": "Sakurazuka Hiroshi",
+    "ean_isbn13": 9788577879427,
+    "description": "A trama mostra o soldado inexperiente Keiji, que morre em sua primeira investida em campo de batalha contra alienígenas que invadiram a terra, mas acaba acordando logo em seguida na manhã anterior a esse mesmo primeiro ataque. Agora ele terá que entender o que aconteceu e, ao mesmo tempo, ajudar as forças da Terra a vencer os inimigos do planeta.[...]",
+    "publisher": "JBC",
+    "Year": 2014,
+    "notes": "",
+    "Idioma": "Português",
+    "price": "R$ 50,00",
+    "length": "",
+    "Peso (g)": 290
+  },
+  {
+    "title": "Fairy Tail Zero",
+    "image": "fairytailzero",
+    "creators": "Hiro Mashima",
+    "ean_isbn13": 9788545703419,
+    "description": "Mavis morava com sua amiga Zera na Ilha Sírius... Uma garota inocente e leitora assídua, seu sonho era \"encontrar as fadas\". No ano X686, caçadores de tesouro vão para a Ilha Sírius, e a partir desse encontro, Mavis viverá uma aventura inimaginável! Encontros e despedidas, alegrias e tristezas, qual a \"resposta\" que ela encontrou?! Uma narrativa cativante, que descreve a verdadeira sinceridade... Conheça a história secreta da fundação da guilda de magos Fairy Tail! Eis a \"aventura que guiará a magia e os companheiros\" daquela que será a Primeira Mestra.",
+    "publisher": "JBC",
+    "Year": 2017,
+    "notes": "novo",
+    "Idioma": "Português",
+    "price": "R$ 18,00",
+    "length": "",
+    "Peso (g)": 290
+  },
   /*{
     "title": "Vincent - Quadrinhos (Em Português do Brasil)",
     "image": "gv0923fd87c6009d694e28f9d2fff2d8dd",
@@ -42,7 +155,7 @@ const books = [
     "copies": 1
   },
   {
-    "title": "Como Saber Se Seu Gato Está Planejando Matar Você (Em Português do Brasil)",
+    "title": "Como Saber Se Seu Gato Está Planejando Matar Você",
     "image": "xz3ba9f1c36cbf83b7fd8da3ef41d3f9bf",
     "creators": "Vários Autores",
     "first_name": "Vários",
@@ -154,7 +267,7 @@ const books = [
     "copies": 1
   },
   {
-    "title": "1000 Lugares Para Conhecer Antes de Morrer (Em Portugues do Brasil)",
+    "title": "1000 Lugares Para Conhecer Antes de Morrer",
     "image": "oqe73bfe39e79b9076e1f8311f1a967825",
     "creators": "Patricia Schultz",
     "first_name": "Patricia",
@@ -170,7 +283,7 @@ const books = [
     "copies": 1
   },
   {
-    "title": "E Se? (Em Portugues do Brasil)",
+    "title": "E Se?",
     "image": "8jeddf75e9411049975a36205657537ad1",
     "creators": "Randall Munroe",
     "first_name": "Randall",
@@ -202,7 +315,7 @@ const books = [
     "copies": 1
   },
   {
-    "title": "Dexter (Em Portugues do Brasil)",
+    "title": "Dexter",
     "image": "r54ccdae920b61a5fb04d296ab4497331a",
     "creators": "Jeff Lindsay",
     "first_name": "Jeff",
@@ -218,7 +331,7 @@ const books = [
     "copies": 1
   },
   {
-    "title": "The Ghost in the Shell 2.0 (Em Portugues do Brasil)",
+    "title": "The Ghost in the Shell 2.0",
     "image": "pi67e0d01887a30bfdae12c899ac2e9e92",
     "creators": "Shirow Masamune",
     "first_name": "Shirow",
@@ -234,7 +347,7 @@ const books = [
     "copies": 1
   },
   {
-    "title": "The Ghost in the Shell (Em Português do Brasil)",
+    "title": "The Ghost in the Shell",
     "image": "xh23b13ee1d6932e2d727370c186af624c",
     "creators": "Shirow Masamune",
     "first_name": "Shirow",
@@ -314,7 +427,7 @@ const books = [
     "copies": 1
   },
   {
-    "title": "The Wicked + The Divine(Em Portugues do Brasil)",
+    "title": "The Wicked + The Divine",
     "image": "y07214650cb9e90b321fde3d1b302aed2d",
     "creators": "Kieron Gillen",
     "first_name": "Kieron",
@@ -330,7 +443,7 @@ const books = [
     "copies": 1
   },
   {
-    "title": "Akira - volume 3 (Em Portugues do Brasil)",
+    "title": "Akira - volume 3",
     "image": "5699354610bfffec7184e40db7a27aaa87",
     "creators": "Katsuhiro Otomo",
     "first_name": "Katsuhiro",
@@ -362,7 +475,7 @@ const books = [
     "copies": 1
   },
   /*{
-    "title": "Akira - Volume 1 (Em Português do Brasil)",
+    "title": "Akira - Volume 1",
     "image": "jh1ba4f3ce3e1456ba678180d590059a59",
     "creators": "Katsuhiro Otomo",
     "first_name": "Katsuhiro",
@@ -394,7 +507,7 @@ const books = [
     "copies": 1
   },*/
   {
-    "title": "Os Robôs da Alvorada (Em Português do Brasil)",
+    "title": "Os Robôs da Alvorada",
     "image": "0s389ad83145feb21e7f4f23da16254d1a",
     "creators": "Isaac Asimov",
     "first_name": "Isaac",
@@ -410,7 +523,7 @@ const books = [
     "copies": 1
   },
   {
-    "title": "Segunda Fundação - Volume 3 (Em Português do Brasil)",
+    "title": "Segunda Fundação - Volume 3",
     "image": "cf926d1f0e315af4e52fac25a29b60718b",
     "creators": "Isaac Asimov",
     "first_name": "Isaac",
@@ -426,7 +539,7 @@ const books = [
     "copies": 1
   },
   {
-    "title": "Fundação e Império (Em Português do Brasil)",
+    "title": "Fundação e Império",
     "image": "st3a0bb6704a6a490160db2a44f5fed2f5",
     "creators": "Isaac Asimov",
     "first_name": "Isaac",
@@ -442,7 +555,7 @@ const books = [
     "copies": 1
   },
   {
-    "title": "Retalhos - Blankets (Em Portugues do Brasil)",
+    "title": "Retalhos - Blankets",
     "image": "jwe03ba66fb42a12ba43cb38aef80580bb",
     "creators": "Craig Thompson",
     "first_name": "Craig",
@@ -570,7 +683,7 @@ const books = [
     "copies": 1
   },*/
   {
-    "title": "De Zero A Um (Em Portugues do Brasil)",
+    "title": "De Zero A Um",
     "image": "m4646aa8d2cc74b59b5cb2d0b646903560",
     "creators": "Peter Thiel/Blake Masters",
     "first_name": "Peter",
@@ -666,7 +779,7 @@ const books = [
     "copies": 1
   },*/
   {
-    "title": "Doctor Who. Quando Cair O Verão E Outras Histórias (Em Português do Brasil)",
+    "title": "Doctor Who. Quando Cair O Verão E Outras Histórias",
     "image": "a44fdc5308232d30a3c067ca4eac3f9eed",
     "creators": "Amelia Williams",
     "first_name": "Amelia",
@@ -714,7 +827,7 @@ const books = [
     "copies": 1
   },
   {
-    "title": "O Poder (Em Portugues do Brasil)",
+    "title": "O Poder",
     "image": "tifd68e9d9f376ed394ffacee6d9226092",
     "creators": "Naomi Alderman",
     "first_name": "Naomi",
@@ -730,7 +843,7 @@ const books = [
     "copies": 1
   },
   {
-    "title": "O Novo Iluminismo. Em Defesa da Razao da Ciencia e do Humanismo (Em Portugues do Brasil)",
+    "title": "O Novo Iluminismo. Em Defesa da Razao da Ciencia e do Humanismo",
     "image": "bxf744282811dee0ffdc1b99c0402ae8cf",
     "creators": "Steven Pinker",
     "first_name": "Steven",
@@ -810,7 +923,7 @@ const books = [
     "copies": 1
   },*/
   {
-    "title": "Os Despossuídos (Em Português do Brasil)",
+    "title": "Os Despossuídos",
     "image": "k8d15773cb71be0da75d9fa33ef3a48b3c",
     "creators": "Ursula K. Le Guin",
     "first_name": "Ursula",
@@ -842,7 +955,7 @@ const books = [
     "copies": 1
   },
   {
-    "title": "O tempo desconjuntado (Em Portugues do Brasil)",
+    "title": "O tempo desconjuntado",
     "image": "4r8fd96c38bd2b9387e4e297d7146a3114",
     "creators": "Philip K. Dick",
     "first_name": "Philip",
@@ -890,7 +1003,7 @@ const books = [
     "copies": 1
   },
   {
-    "title": "Star Wars - Livro 2: Livro dos Sith (Em Portugues do Brasil)",
+    "title": "Star Wars - Livro 2: Livro dos Sith",
     "image": "2j8ca67bb4b0e9c65ff17381c02b272fb6",
     "creators": "Daniel Wallace",
     "first_name": "Daniel",
@@ -922,14 +1035,14 @@ const books = [
     "copies": 1
   },
   {
-    "title": "Business Model Generation. Inova&ccedil;&atilde;o Em Modelos De Neg&oacute;cios (Em Português do Brasil)",
+    "title": "Business Model Generation. Inovação Em Modelos De Negócios",
     "image": "82f2b4210634979e81eb8e6f7acec002ac",
     "creators": "Alexander Osterwalder",
     "first_name": "Alexander",
     "last_name": "Osterwalder",
     "ean_isbn13": "9788576085508",
     "upc_isbn10": "857608550X",
-    "description": "Se sua organiza&ccedil;&atilde;o precisa de uma estrat&eacute;gia para chegar na frente de seus concorrentes, voc&ecirc; precisa do BMG. &quot;O ambiente digital demanda uma nova forma de olhar os neg&oacute;cios de m&iacute;dia. O BMG &eacute; a ferramenta que escolhemos para nos ajudar a navegar melhor nesse mundo convergente.&quot; - Jorge N&oacute;brega, diretor-geral de Gest&atilde;o Corporativa das Organiza&ccedil;&otilde;es Globo.[...]",
+    "description": "Se sua organização precisa de uma estratégia para chegar na frente de seus concorrentes, você precisa do BMG.O ambiente digital demanda uma nova forma de olhar os neg&oacute;cios de m&iacute;dia. O BMG &eacute; a ferramenta que escolhemos para nos ajudar a navegar melhor nesse mundo convergente.&quot; - Jorge N&oacute;brega, diretor-geral de Gest&atilde;o Corporativa das Organiza&ccedil;&otilde;es Globo.[...]",
     "publisher": "Alta Books",
     "publish_date": "",
     "notes": "",
@@ -938,7 +1051,7 @@ const books = [
     "copies": 1
   },
   {
-    "title": "Gata Garota - Volume 1 (Em Portugues do Brasil)",
+    "title": "Gata Garota - Volume 1",
     "image": "r8db3f9878bdd6abfbf273503e05e1807d",
     "creators": "Fefe Torquato",
     "first_name": "Fefe",
@@ -986,7 +1099,7 @@ const books = [
     "copies": 1
   },
   {
-    "title": "O Universo de Sandman. O Sonhar - Volume 2 (Em Portugues do Brasil)",
+    "title": "O Universo de Sandman. O Sonhar - Volume 2",
     "image": "24ab6203360f9fe5d775b98a5d85bd019d",
     "creators": "Simon Spurrier",
     "first_name": "Simon",
@@ -1002,7 +1115,7 @@ const books = [
     "copies": 1
   },
   {
-    "title": "O Universo De Sandman - Lucifer Volume 1 (Em Portugues do Brasil)",
+    "title": "O Universo De Sandman - Lucifer Volume 1",
     "image": "ll07e2d53ca59eca6d3b11428a3a441174",
     "creators": "Neil Gaiman",
     "first_name": "Neil",
@@ -1018,7 +1131,7 @@ const books = [
     "copies": 1
   },
   {
-    "title": "O Universo de Sandman. O Sonhar - Volume 1 (Em Portugues do Brasil)",
+    "title": "O Universo de Sandman. O Sonhar - Volume 1",
     "image": "5pa28e709bc4f69a3c96e6e520de4169ba",
     "creators": "Simon Spurrier",
     "first_name": "Simon",
@@ -1050,7 +1163,7 @@ const books = [
     "copies": 1
   },
   {
-    "title": "Universo X - Volume 1 (Em Português do Brasil)",
+    "title": "Universo X - Volume 1",
     "image": "mk81ff94130f7703beead06bf5db6180e2",
     "creators": "Alex Ross",
     "first_name": "Alex",
@@ -1098,7 +1211,7 @@ const books = [
     "copies": 1
   },
   {
-    "title": "Dexter: A Mao Esquerda de Deus (Em Portugues do Brasil)",
+    "title": "Dexter: A Mao Esquerda de Deus",
     "creators": "Jeff Lindsay",
     "first_name": "Jeff",
     "last_name": "Lindsay",
