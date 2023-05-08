@@ -1868,9 +1868,9 @@ const boardgames = [
 //----------------------------------------------ESPORTE---------------------------------------------------
 const sport = [
   {
-    title: "Bicicleta Aro 27",
+    title: "Bicicleta Aro 26",
    // "image": "bicicletabranca",
-    notes: "Marca: Rockrider, Branca, Aro 27, Tamanho M, acompanha paralamas, banco gel e banco original, capacete branco tamanho M, descanso de apoio, único dono, garantia de quadro vitalício, com nota fiscal",
+    notes: "Marca: Rockrider, Branca, Aro 26, Tamanho M, acompanha paralamas, banco gel e banco original, capacete branco tamanho M, descanso de apoio, único dono, garantia de quadro vitalício, com nota fiscal",
     price: "R$ 700,00",
   },
  {
@@ -1910,6 +1910,24 @@ const sport = [
 }).sort(compareBySearchString)
 
 const moveis = [
+  {
+    title: "Buffet 3 Portas Tok&Stok",
+    image:"buffet",
+    notes: "Cor: Preto/Nozes, Largura: 1,20M Altura: 81.50CM Profundidade:35 CM, mais detalhes: https://www.tokstok.com.br/buffet-3-portas-1-20-m-x-35-cm-preto-nozes-lin/p",
+    price: "R$550,00"
+  },
+  {
+    title: "Baú Tok&Stok",
+    image:"bau",
+    notes: "Cor: Preto/Nozes, Largura: 70.00CM Altura: 42.70CM Profundidade:35,5 CM, mais detalhes:https://www.tokstok.com.br/bau-70-cm-x-35-cm-preto-nozes-lin/p",
+    price: "R$400,00"
+  },
+  {
+    title: "4 Cadeiras Eames Wood Tok&Stok Preta",
+    image:"cadeiraew",
+    notes: "Mais detalhes: https://www.tokstok.com.br/wood-cadeira-faia-preto-eames/p",
+    price: "R$600,00"
+  },
   {
     title: "Mesa branca grande",
     notes: "de graça, venha buscar",
@@ -1964,8 +1982,9 @@ const moveis = [
 
 const eletro = [
   {
-    title: "Airfryer",
-    notes: "Em ótimo estado, precisa de um lar que a valorizem de verdade.",
+    title: "Airfryer Mondial",
+    image: "airfryer",
+    notes: "Fritadeira Sem Óleo Mondial, Family Inox-I - 4L, 110V, Preto, 1500W. Em bom estado, precisa de um lar que a valorizem de verdade.",
     price: "R$250,00",
   },
   {
@@ -1974,8 +1993,9 @@ const eletro = [
     price: "R$80,00",
   },
   {
-    title: "Liquidificador",
-    notes: "",
+    title: "Liquidificador Britânia",
+    image:"liquidificador",
+    notes: "Liquidificador Britânia Bellagio 800W, 110V",
     price: "R$80,00",
   },
   {
@@ -1991,9 +2011,15 @@ const eletro = [
     price: "R$120,00",
   },
   {
+    title: "Moedor de Café Ajustável, Hamilton Beach, 127V",
+    image: "moedorhb",
+    notes: "Mais detalhes: https://www.hamiltonbeach.com.br/produto/moedor-ajustavel/80393",
+    price: "R$230,00",
+  },
+  {
     title: "Nespresso Essenza Mini Cafeteira 110V",
     image: "nespresso",
-    notes: "Em ótimo estado, já que os humanos preferem café coado",
+    notes: "Em ótimo estado, já que os humanos preferem café coado, ainda leva várias cápsulas de brinde",
     price: "R$250,00",
   },
   {
