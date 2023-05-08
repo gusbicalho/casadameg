@@ -1664,7 +1664,7 @@ const books = [
     ]
   }
 }).sort(compareBySearchString)
-//---------------------------------------------BOAREDGAMES-----------------------------------------------
+//---------------------------------------------BOARDGAMES-----------------------------------------------
 const boardgames = [
   {
     "title": "Star Realms",
@@ -1891,7 +1891,8 @@ const sport = [
   },
   {
     title: "Patins",
-    notes: "xxx",
+    image: "patins",
+    notes: "Patins Oxer Aluminium Abec 7, nº39BR, Azul e Cinza",
     price: "R$ 100,00",
   },
 ].map((product) => {
@@ -1919,7 +1920,7 @@ const moveis = [
   {
     title: "Baú Tok&Stok",
     image:"bau",
-    notes: "Cor: Preto/Nozes, Largura: 70.00CM Altura: 42.70CM Profundidade:35,5 CM, mais detalhes:https://www.tokstok.com.br/bau-70-cm-x-35-cm-preto-nozes-lin/p",
+    notes: "Cor: Preto/Nozes, Largura: 70CM Altura: 42.70CM Profundidade:35,5 CM, mais detalhes:https://www.tokstok.com.br/bau-70-cm-x-35-cm-preto-nozes-lin/p",
     price: "R$400,00"
   },
   {
@@ -1927,6 +1928,11 @@ const moveis = [
     image:"cadeiraew",
     notes: "Mais detalhes: https://www.tokstok.com.br/wood-cadeira-faia-preto-eames/p",
     price: "R$600,00"
+  },  {
+    title: "Carrinho Tok&Stok",
+    image: "carrinho",
+    notes: "Altura: 92CM Largura: 62.50CM Profundidade: 50CM, mais detalhes: https://www.tokstok.com.br/carrinho-62-cm-x-50-cm-amendoa-massy/p",
+    price: "R$1000,00"
   },
   {
     title: "Mesa branca grande",
