@@ -1910,6 +1910,12 @@ const sport = [
 
 const moveis = [
   {
+    title: "Mesa com Regulagem de Altura GenioDesk PRO 160X70",
+    image:"mesaregulagem",
+    notes: "Motorização dupla; Velocidade do ajuste: 4 cm/s; Ajuste de altura: 66 cm – 129 cm; Peso máximo: 120 Kg; Memória para 4 posições; Bivolt (110/220V)",
+    price: "R$3500,00"
+  },
+  {
     title: "Buffet 3 Portas Tok&Stok",
     image:"buffet",
     notes: "Cor: Preto/Nozes, Largura: 1,20M Altura: 81.50CM Profundidade:35 CM, mais detalhes: https://www.tokstok.com.br/buffet-3-portas-1-20-m-x-35-cm-preto-nozes-lin/p",
