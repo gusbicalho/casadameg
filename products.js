@@ -115,6 +115,19 @@ const books = [
     "length": "",
     "Peso (g)": 290
   },
+  {
+    "title": "Sailor Moon Boxes - 1 e 2 Volumes 1 ao 12",
+   // "image": "",
+    //"creators": "",
+    "ean_isbn13": 7898312962030,
+    "publisher": "JBC",
+    //"Year":,
+    "notes": "novo",
+    "Idioma": "Português",
+    "price": "R$ 500,00",
+    //"length": "",
+    "Peso (g)": 2790
+  },
   /*{
     "title": "Vincent - Quadrinhos (Em Português do Brasil)",
     "image": "gv0923fd87c6009d694e28f9d2fff2d8dd",
@@ -1893,6 +1906,11 @@ const sport = [
     notes: "Patins Oxer Aluminium Abec 7, nº39BR, Azul e Cinza",
     price: "R$ 100,00",
   },
+  {
+    title: "Colchonete para exercícios",
+    notes: "Em bom estado, de graça, venha buscar.",
+    price: "R$ 0,00",
+  },
 ].map((product) => {
   return {
     ...product,
@@ -1991,12 +2009,24 @@ const moveis = [
 }).sort(compareBySearchString)
 
 const eletro = [
- /* ROMEU {
+ /* RESERVA ROMEU {
     title: "Airfryer Mondial",
     image: "airfryer",
     notes: "Fritadeira Sem Óleo Mondial, Family Inox-I - 4L, 110V, Preto, 1500W. Em bom estado, precisa de um lar que a valorizem de verdade.",
     price: "R$250,00",
   }, */
+  {
+    title: "Impressora Brother Laser, Mono, Wi-Fi, 110V - HL1212W",
+    image:  "impressora",
+    notes: "Estará disponível no fim de Junho. Especificações: https://www.kabum.com.br/produto/63740/impressora-brother-laser-mono-wi-fi-110v-hl1212w",
+    price: "R$800,00",
+  },
+  {
+    title: "Purificador de Ar TruSens Z-1000 - 110V",
+    image: "trusens",
+    notes: "Vai com um filtro novo e mais 2 extras. 'Este purificador tecnologicamente avançado, com filtragem DuPont™, reduz os poluentes do seu espaço pessoal e melhora a qualidade do ar na sua casa. O design atraente e estilo compacto são ideais para qualquer espaço pequeno.' Mais detalhes: https://trusens.com.br/produto/purificador-de-ar-ambiente-pequeno/",
+    price: "R$1000,00",
+  },
   {
     title: "Crepeira",
     notes: "Usada 1 vez",
@@ -2008,7 +2038,7 @@ const eletro = [
     notes: "Liquidificador Britânia Bellagio 800W, 110V",
     price: "R$80,00",
   },
-/* PATY  {
+/* RESERVA PATY  {
     title: "Robô Aspirador Eufy by Anker BoostIQ RoboVac 11S (Slim) Bivolt",
     image: "eufy",
     notes: "Detalhes: https://a.co/d/5G0EuEV",
@@ -2026,7 +2056,7 @@ const eletro = [
     notes: "Mais detalhes: https://www.hamiltonbeach.com.br/produto/moedor-ajustavel/80393",
     price: "R$230,00",
   },
-  /* ROMEU {
+  /* RESERVA ROMEU {
     title: "Nespresso Essenza Mini Cafeteira 110V",
     image: "nespresso",
     notes: "Em ótimo estado, já que os humanos preferem café coado, ainda leva várias cápsulas de brinde",
