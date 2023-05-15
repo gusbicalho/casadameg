@@ -249,7 +249,7 @@ const books = [
     "length": 288,
     "copies": 1
   },
-  {
+ /* RESERVA FALSA {
     "title": "1000 Lugares Para Conhecer Antes de Morrer",
     "image": "oqe73bfe39e79b9076e1f8311f1a967825",
     "creators": "Patricia Schultz",
@@ -263,7 +263,7 @@ const books = [
     "price": "R$ 8,00",
     "length": 752,
     "copies": 1
-  },
+  }, */
   {
     "title": "E Se?",
     "image": "8jeddf75e9411049975a36205657537ad1",
@@ -294,7 +294,7 @@ const books = [
     "length": "",
     "copies": 1
   },
-  {
+ /* RESERVA FALSA {
     "title": "Dexter",
     "image": "r54ccdae920b61a5fb04d296ab4497331a",
     "creators": "Jeff Lindsay",
@@ -308,7 +308,7 @@ const books = [
     "price": "R$ 10,00",
     "length": "",
     "copies": 1
-  },
+  },*/
   {
     "title": "The Ghost in the Shell 2.0",
     "image": "pi67e0d01887a30bfdae12c899ac2e9e92",
@@ -999,7 +999,7 @@ const books = [
     "length": "",
     "copies": 1
   },
-  {
+  /* RESERVA FALSA{
     "title": "Vertigo - Contos Macabros",
     "image": "jh12b16d3b90b48bd1b85b3797e274f497",
     "creators": "Grant Morrison",
@@ -1013,7 +1013,7 @@ const books = [
     "price": "R$ 20,00",
     "length": "",
     "copies": 1
-  },
+  }, */
   {
     "title": "Kick-Ass",
     "image": "828dbc3bd50521513db4ea5ecb4516ef",
@@ -1134,7 +1134,7 @@ const books = [
     "length": 232,
     "copies": 1
   },
-  {
+  /* RESERVA FALSA {
     "title": "Dexter: A Mao Esquerda de Deus",
     "creators": "Jeff Lindsay",
     "first_name": "Jeff",
@@ -1147,7 +1147,7 @@ const books = [
     "price": "R$ 8,00",
     "length": "",
     "copies": 1
-  },
+  }, */
   {
     "title": "Para onde vamos?",
     "creators": "Isaac Asimov",
@@ -1190,7 +1190,7 @@ const books = [
     "length": "",
     "copies": 1
   },
-  {
+  /* RESERVA FALSA {
     "title": "Box Coringa e Batman - A Piada Mortal - Edição Especial Limitada",
     "image": "fw1bc8f85f96d363a0df742f87f11d96dc",
     "creators": "Allan Moore, Brian Azarello",
@@ -1204,7 +1204,7 @@ const books = [
     "price": "R$ 100,00",
     "length": "",
     "copies": 1
-  },
+  }, */
   {
     "title": "Odisséia Cósmica",
     "creators": "Jim Starlin",
@@ -1991,12 +1991,12 @@ const moveis = [
 }).sort(compareBySearchString)
 
 const eletro = [
-  {
+ /* ROMEU {
     title: "Airfryer Mondial",
     image: "airfryer",
     notes: "Fritadeira Sem Óleo Mondial, Family Inox-I - 4L, 110V, Preto, 1500W. Em bom estado, precisa de um lar que a valorizem de verdade.",
     price: "R$250,00",
-  },
+  }, */
   {
     title: "Crepeira",
     notes: "Usada 1 vez",
@@ -2008,12 +2008,12 @@ const eletro = [
     notes: "Liquidificador Britânia Bellagio 800W, 110V",
     price: "R$80,00",
   },
-  {
+/* PATY  {
     title: "Robô Aspirador Eufy by Anker BoostIQ RoboVac 11S (Slim) Bivolt",
     image: "eufy",
     notes: "Detalhes: https://a.co/d/5G0EuEV",
     price: "R$600,00",
-  },
+  }, */
   {
     title: "Pipoqueira Mondial Popflix 110V",
     image: "pipoqueira",
@@ -2026,12 +2026,12 @@ const eletro = [
     notes: "Mais detalhes: https://www.hamiltonbeach.com.br/produto/moedor-ajustavel/80393",
     price: "R$230,00",
   },
-  {
+  /* ROMEU {
     title: "Nespresso Essenza Mini Cafeteira 110V",
     image: "nespresso",
     notes: "Em ótimo estado, já que os humanos preferem café coado, ainda leva várias cápsulas de brinde",
     price: "R$250,00",
-  },
+  }, */
   {
     title: "Máquina de espresso Tramontina by Breville Express Pro em Aço Inox com Moedor 127 V",
     image: "breville",
