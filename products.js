@@ -353,6 +353,33 @@ const books = [
     "copies": 1
   },
   {
+    "title": "The Ghost in the Shell 2.0",
+    "image": "pi67e0d01887a30bfdae12c899ac2e9e92",
+    "creators": "Shirow Masamune",
+    "first_name": "Shirow",
+    "last_name": "Masamune",
+    "ean_isbn13": "9788545703716",
+    "upc_isbn10": "8545703716",
+    "publisher": "",
+    "publish_date": "",
+    "notes": "",
+    "price": "R$ 35,00",
+    "length": "",
+    "copies": 1
+  },
+  {
+    "title": "Coleção YuYu Hakusho 1-19 (completa)",
+    "image": "yuyu",
+    "creators": "Yoshihiro Togashi",
+    "ean_isbn13": "9788577879090",
+    "publisher": "JBC",
+    "publish_date": "2019",
+    "notes": "Em ótimo estado, coleção completa com 19 volumes",
+    "price": "R$ 500,00",
+    "length": "",
+    "copies": 1
+  },
+  {
     "title": "O Universo De Sandman: A Casa Dos Sussurros Vol. 1",
     "image": "b52598972fef984f7b583ecd56984a840ccfc760",
     "creators": "",
