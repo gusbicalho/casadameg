@@ -117,7 +117,7 @@ const books = [
   },
   {
     "title": "Sailor Moon Boxes - 1 e 2 Volumes 1 ao 12",
-   // "image": "",
+    "image": "sailormoon",
     //"creators": "",
     "ean_isbn13": 7898312962030,
     "publisher": "JBC",
@@ -377,7 +377,8 @@ const books = [
     "notes": "Em ótimo estado, coleção completa com 19 volumes",
     "price": "R$ 500,00",
     "length": "",
-    "copies": 1
+    "copies": 1,
+    "peso": "4400g",
   },
   {
     "title": "O Universo De Sandman: A Casa Dos Sussurros Vol. 1",
@@ -1591,7 +1592,7 @@ const books = [
     "length": 400,
     "copies": 1
   },
-  {
+  /*{
     "title": "Blindsight",
     "image": "peter-watts-blindsight-2576832039",
     "creators": "Peter Watts",
@@ -1603,7 +1604,7 @@ const books = [
     "price": "R$ 100,00",
     "length": 384,
     "copies": 1
-  },
+  }, */
   {
     "title": "Todos os Pássaros no Céu",
     "image": "pete-rissati-charlie-jane-anders-todos-os-passaros-no-ceu-389033122",
@@ -2042,6 +2043,12 @@ const eletro = [
     notes: "Fritadeira Sem Óleo Mondial, Family Inox-I - 4L, 110V, Preto, 1500W. Em bom estado, precisa de um lar que a valorizem de verdade.",
     price: "R$250,00",
   }, */
+  {
+    title: "Aquecedor Mondial ",
+    //image: "",
+    notes: "1100W, 110V",
+    price: "R$60,00",
+  },
   {
     title: "Impressora Brother Laser, Mono, Wi-Fi, 110V - HL1212W",
     image:  "impressora",
