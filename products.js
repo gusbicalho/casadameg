@@ -1925,6 +1925,7 @@ const sport = [
   },
   {
     title: "Suporte de chão para bicicleta",
+    image: "suporte",
     notes: "novo",
     price: "R$ 30,00",
   },
@@ -2129,8 +2130,8 @@ const eletro = [
 const outros = [
   {
     title: "4 Taças de Cristal",
-   // "image": "tacas",
-    notes: "4 taças para vinho",
+    "image": "taca",
+    notes: "4 taças de cristal para vinho tinto 480ml",
     price: "R$ 50,00",
   },
   {
