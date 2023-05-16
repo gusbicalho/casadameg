@@ -2091,6 +2091,44 @@ const eletro = [
       ]
     }
   })
+//-------------------------OUTROS------------------------
+const outros = [
+  {
+    title: "4 Taças de Cristal",
+   // "image": "tacas",
+    notes: "4 taças para vinho",
+    price: "R$ 50,00",
+  },
+  {
+    title: "Caneca Harry Potter",
+   // "image": "tacas",
+    notes: "ideal para decoração",
+    price: "R$ 15,00",
+  },
+  {
+    title: "Colecionáveis do Cinemark",
+   // "image": "tacas",
+    notes: "Escolha um, ou vários.",
+    price: "R$ 0,00",
+  },
+  {
+    title: "Suporte para flip chart com quadro branco",
+   // "image": "tacas",
+    notes: "De graça, venha buscar",
+    price: "R$ 0,00",
+  },
+].map((product) => {
+  return {
+    ...product,
+    searchString: makeSearchString(product, [
+      'title',
+      'notes',
+    ]),
+    detailFields: [
+      ["notes", "Notas"],
+    ]
+  }
+}).sort(compareBySearchString)
 
 window.Products = {
   books,
@@ -2098,4 +2136,5 @@ window.Products = {
   moveis,
   eletro,
   boardgames,
+  outros,
 }
