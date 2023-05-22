@@ -51,7 +51,7 @@ const app = Vue.createApp({
       return [
         { id: 'books', title: 'Livros' },
         { id: 'boardgames', title: 'Boardgames' },
-        { id: 'eletro', title: 'Eletrodomésticos' },
+        { id: 'eletro', title: 'Eletroeletrônicos' },
         { id: 'sport', title: 'Esporte' },
         { id: 'moveis', title: 'Móveis' },
         { id: 'outros', title: 'Outros' },
