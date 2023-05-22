@@ -2000,6 +2000,23 @@ const moveis = [
     notes: "",
     price: "R$300,00"
   },
+  /*{
+    title: "Estante de Livros",
+    image: "estante1"
+    notes: "",
+    price: "R$x,00"
+  },*/
+  /*{
+    title: "Estante de Livros",
+    notes: "",
+    price: "R$x,00"
+  },*/
+  {
+    title: "Sofá",
+    image: "sofa",
+    notes: "Medidas: Largura: 2,30m, Comp. Aberto: 1,80m,Comp. Fechado: 1,30m, Marcas de arranhado (Meg) apenas na parte detrás, entrar em contato para mais detalhes. Valor pago na loja: R$5300,00",
+    price: "R$2500,00"
+  },
   {
     title: "Conjunto Mesa + 4 cadeiras dobráveis",
     image: "mesabar",
@@ -2151,6 +2168,24 @@ const outros = [
    // "image": "tacas",
     notes: "De graça, venha buscar",
     price: "R$ 0,00",
+  },
+  {
+    title: "Star Trek Bustos Eaglemoss Hero Collector - Capitão Kirk",
+   "image": "kirk",
+    notes: "Em perfeito estado, acompanha caixa original",
+    price: "R$ 300,00",
+  },
+  {
+    title: "Star Trek Bustos Eaglemoss Hero Collector - Capitã Janeway",
+   "image": "janeway",
+    notes: "Em perfeito estado, acompanha caixa original",
+    price: "R$ 150,00",
+  },
+  {
+    title: "Star Trek Bustos Eaglemoss Hero Collector - Capitão Sisko",
+   "image": "sisko",
+    notes: "Em perfeito estado, acompanha caixa original",
+    price: "R$ 250,00",
   },
 ].map((product) => {
   return {
