@@ -368,7 +368,7 @@ const books = [
     "copies": 1
   },
   {
-    "title": "Coleção YuYu Hakusho 1-19 (completa)",
+    "title": "YuYu Hakusho 1-19 (Coleção Completa)",
     "image": "yuyu",
     "creators": "Yoshihiro Togashi",
     "ean_isbn13": "9788577879090",
@@ -379,6 +379,19 @@ const books = [
     "length": "",
     "copies": 1,
     "peso": "4400g",
+  },
+  {
+    "title": "Fate Stay Night vol. 1 ao 20 (Coleção Completa)",
+    "image": "fate",
+    "creators": "Dat Nishiwaki",
+    "ean_isbn13": "9788542003200",
+    "publisher": "Panini Comics",
+    "publish_date": "2017",
+    "notes": "Coleção completa. Os volumes 1 e 20 estão com arranhados na capa, o restante estão em perfeito estado",
+    "price": "R$ 260,00",
+    "length": "",
+    "copies": 1,
+    "peso": "2930g",
   },
   {
     "title": "O Universo De Sandman: A Casa Dos Sussurros Vol. 1",
@@ -2080,8 +2093,9 @@ const eletro = [
     price: "R$1000,00",
   },
   {
-    title: "Crepeira",
-    notes: "Usada 1 vez",
+    title: "Crepeira Mondial 110V",
+    image: "crepeira",
+    notes: "Crepeira Mondial, 'Crepe & Hot Dog', 110V, 850W, Usada 1 vez",
     price: "R$80,00",
   },
   {
