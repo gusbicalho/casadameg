@@ -381,6 +381,19 @@ const books = [
     "peso": "4400g",
   },
   {
+    "title": "One-Punch Man 1 ao 25 + Catálogo de heróis",
+    "image": "onepunch",
+    "creators": "Yusuke Murata",
+    "ean_isbn13": "9788542603620",
+    "publisher": "Planet Mangá",
+    "publish_date": "2017",
+    "notes": "Em ótimo estado, possui os volumes 1 ao 25 + Catálogo de heróis. Note que o volume 16 está um pouco desbotado na lombada",
+    "price": "R$ 700,00",
+    "length": "",
+    "copies": 1,
+    "peso": "7800g",
+  },
+  {
     "title": "Fate Stay Night vol. 1 ao 20 (Coleção Completa)",
     "image": "fate",
     "creators": "Dat Nishiwaki",
@@ -918,7 +931,7 @@ const books = [
     "length": "",
     "copies": 1
   },*/
-  {
+ /*{
     "title": "Os Despossuídos",
     "image": "k8d15773cb71be0da75d9fa33ef3a48b3c",
     "creators": "Ursula K. Le Guin",
@@ -932,7 +945,7 @@ const books = [
     "price": "R$ 35,00",
     "length": "",
     "copies": 1
-  },
+  }, */
   {
     "title": "Fontes do Paraiso, As",
     "image": "lg1226e6420cb365f81b3f2a4aa3f6341f",
