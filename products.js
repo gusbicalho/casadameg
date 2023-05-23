@@ -50,7 +50,7 @@ const books = [
     "length": "",
     "Peso (g)": 735
   },
-  {
+  /*{
     "title": "A Mão Esquerda da Escuridão",
     "image": "ursula",
     "creators": "Ursula Kroeber le Guin",
@@ -62,7 +62,7 @@ const books = [
     "price": "R$ 30,00",
     "length": "",
     "Peso (g)": 395
-  },
+  },*/
   {
     "title": "Cognitive Science: An Introduction to Mind and Brain",
     "image": "cognitive",
@@ -430,7 +430,7 @@ const books = [
     "first_name": "Vários",
     "last_name": "Autores",
     "ean_isbn13": "9788542811193",
-    "upc_isbn10": "8542811194",
+    "upc_isbn10": "854281 1194",
     "publisher": "",
     "publish_date": "",
     "notes": "Capa Dura",
@@ -2013,16 +2013,17 @@ const moveis = [
     notes: "",
     price: "R$300,00"
   },
+ {
+    title: "Estante de Livros",
+    image: "estante1",
+    notes: "Estante de madeira maciça com portas de vidro e uma gaveta",
+    price: "R$800,00"
+  },
   /*{
     title: "Estante de Livros",
-    image: "estante1"
-    notes: "",
-    price: "R$x,00"
-  },*/
-  /*{
-    title: "Estante de Livros",
-    notes: "",
-    price: "R$x,00"
+    image: "",
+    notes: "Estante de antiquario, sugestão para o comprador: trocar os trilhos",
+    price: "R$300,00"
   },*/
   {
     title: "Sofá",
@@ -2200,6 +2201,12 @@ const outros = [
    "image": "sisko",
     notes: "Em perfeito estado, acompanha caixa original",
     price: "R$ 250,00",
+  },
+  {
+    title: "Star Trek Bustos - Leve os 3 bustos por 600!",
+    image: "startrekbustos",
+    notes: "Kirk + Janeway + Sisko",
+    price: "R$ 600,00",
   },
 ].map((product) => {
   return {
