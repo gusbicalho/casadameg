@@ -1982,12 +1982,12 @@ const sport = [
 }).sort(compareBySearchString)
 
 const moveis = [
-  {
+ /* RESERVADO {
     title: "Mesa com Regulagem de Altura GenioDesk PRO 160X70",
     image:"mesaregulagem",
     notes: "Motorização dupla; Velocidade do ajuste: 4 cm/s; Ajuste de altura: 66 cm – 129 cm; Peso máximo: 120 Kg; Memória para 4 posições; Bivolt (110/220V)",
     price: "R$3500,00"
-  },
+  },*/
   {
     title: "Buffet 3 Portas Tok&Stok",
     image:"buffet",
@@ -2086,13 +2086,25 @@ const eletro = [
     title: "Airfryer Mondial",
     image: "airfryer",
     notes: "Fritadeira Sem Óleo Mondial, Family Inox-I - 4L, 110V, Preto, 1500W. Em bom estado, precisa de um lar que a valorizem de verdade.",
-    price: "R$250,00",
+    price: "R$250,00 ",
   }, */
   {
-    title: "Aquecedor Mondial ",
+    title: "Aquecedor Mondial",
     //image: "",
     notes: "1100W, 110V",
     price: "R$60,00",
+  },
+  {
+    title: "Google Wi-Fi Roteador AC1200",
+    image: "googlewifi",
+    notes: "PADRÃO EUROPEU, Instuções na caixa em Alemão",
+    price: "R$100,00",
+  },
+  {
+    title: "Chaleira Elétrica Cadence Supreme Control Inox 1,7L - 127V",
+    //image: "",
+    notes: "Com controle digital de temperatura. Mais detalhes: https://www.cadence.com.br/chaleira-eletrica-cadence-supreme-control-inox-17l/p?idsku=4660&gclid=CjwKCAjwscGjBhAXEiwAswQqNCtWEQJwxUoQoN6K9VLjUbWPBE3CPUXUvhgKCSZkz-4iZGuzbShZYxoCbJYQAvD_BwE",
+    price: "R$100,00",
   },
   {
     title: "Impressora Brother Laser, Mono, Wi-Fi, 110V - HL1212W",
