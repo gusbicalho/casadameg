@@ -706,7 +706,7 @@ const books = [
     "length": 384,
     "copies": 1
   },*/
-  {
+  /*{
     "title": "De Zero A Um",
     "image": "m4646aa8d2cc74b59b5cb2d0b646903560",
     "creators": "Peter Thiel/Blake Masters",
@@ -720,7 +720,7 @@ const books = [
     "price": "R$ 10,00",
     "length": "",
     "copies": 1
-  },
+  },*/
   {
     "title": "InterWorld",
     "image": "128083f0200ae7fe3249940d163a99e700",
