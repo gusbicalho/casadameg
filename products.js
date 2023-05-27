@@ -2032,12 +2032,12 @@ const moveis = [
     notes: "Estante de madeira maciça com portas de vidro e uma gaveta",
     price: "R$800,00"
   },
-  /*{
+  {
     title: "Estante de Livros",
-    image: "",
-    notes: "Estante de antiquario, sugestão para o comprador: trocar os trilhos",
+    //image: "",
+    notes: "Estante de antiga de madeira, sugestão para o comprador: trocar os trilhos",
     price: "R$300,00"
-  },*/
+  },
   {
     title: "Sofá",
     image: "sofa",
