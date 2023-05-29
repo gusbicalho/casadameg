@@ -1996,19 +1996,6 @@ const books = [
   "peso": 690
 },
 {
-  "title": "Distributed Algorithms: An Intuitive Approach",
-  "image": "",
-  "creators": "Wan Fokkink",
-  "ean_isbn13": 9780262026772,
-  "description": "This book offers students and researchers a guide to distributed algorithms that emphasizes examples and exercises rather than the intricacies of mathematical models. It avoids mathematical argumentation, often a stumbling block for students, teaching algorithmic thought rather than proofs and logic. This approach allows the student to learn a large number of algorithms within a relatively short span of time. Algorithms are explained through brief, informal descriptions, illuminating examples, and practical exercises. The examples and exercises allow readers to understand algorithms intuitively and from different perspectives. Proof sketches, arguing the correctness of an algorithm or explaining the idea behind fundamental results, are also included. An appendix offers pseudocode descriptions of many algorithms.Distributed algorithms are performed by a collection of computers that send messages to each other or by multiple software threads that use the same shared memory. The algorithms presented in the book are for the most part \"classics,\" selected because they shed light on the algorithmic design of distributed systems or on key issues in distributed computing and concurrent programming. Distributed Algorithms can be used in courses for upper-level undergraduates or graduate students in computer science, or as a reference for researchers in the field.",
-  "publisher": "The MIT Press",
-  "Year": 2013,
-  "notes": "Capa dura; Em ótimo estado, sem nenhuma observação",
-  "Idioma": "Inglês",
-  "price": "R$ 175,00",
-  "peso": 655
-},
-{
   "title": "Crafting Interpreters",
   "image": "",
   "creators": "Robert Nystrom (Illustrator)",
