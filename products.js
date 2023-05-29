@@ -1945,7 +1945,7 @@ const books = [
 ///NOVOS
 {
   "title": "A Louca Dos Gatos",
-  "image": "",
+  "image": "loucagatos",
   "creators": "Sarah Andersen",
   "ean_isbn13": 9788555340567,
   "description": "A terceira coletânea da cartunista Sarah Andersen traz novas tiras que retratam os desafios de ser um jovem adulto num mundo cada vez mais instável. Os quadrinhos de Sarah Andersen são para todos que precisam lidar com níveis de ansiedade cada vez mais alarmantes, que sentem que o mundo está à beira do colapso e que se esforçam para sair ao menos um centimetrozinho da zona de conforto. OU seja, é basicamente um manual de sobrevivência para os dias de hoje.ALém de suas tirinhas sagazes e encantadoras, a autora, que já reuniu mais de 2 milhões de fãs no Facebook, traz também ensaios ilustrados com dicas para os artistas aspirantes aprenderem a lidar com críticas, ignorarem os trolls na internet e não desistirem de mostrar seu trabalho.",
@@ -1958,7 +1958,7 @@ const books = [
 },
 {
   "title": "What If?: Serious Scientific Answers to Absurd Hypothetical Questions",
-  "image": "",
+  "image": "whatif",
   "creators": "Randall Munroe",
   "ean_isbn13": 9780544272996,
   "description": "From the creator of the wildly popular webcomic xkcd, hilarious and informative answers to important questions you probably never thought to ask. Millions of people visit xkcd.com each week to read Randall Munroe&rsquo;s iconic webcomic. His stick-figure drawings about science, technology, language, and love have a large and passionate following. Fans of xkcd ask Munroe a lot of strange questions. What if you tried to hit a baseball pitched at 90 percent the speed of light? How fast can you hit a speed bump while driving and live? If there was a robot apocalypse, how long would humanity last? In pursuit of answers, Munroe runs computer simulations, pores over stacks of declassified military research memos, solves differential equations, and consults with nuclear reactor operators. His responses are masterpieces of clarity and hilarity, complemented by signature xkcd comics. They often predict the complete annihilation of humankind, or at least a really big explosion. The book features new and never-before-answered questions, along with updated and expanded versions of the most popular answers from the xkcd website. What If? will be required reading for xkcd fans and anyone who loves to ponder the hypothetical.",
@@ -1971,7 +1971,7 @@ const books = [
 },
 {
   "title": "Logo, Logo: Dez novas tecnologias que vão melhorar e/ou arruinar tudo",
-  "image": "",
+  "image": "logologo",
   "creators": "Weinersmith Kelly e Zach",
   "ean_isbn13": 9788551003336,
   "description": "Um panorama irreverente das tecnologias que prometem mudar nossa vida o que será do amanhã? Como acontece o progresso? E, afinal, por que nós ainda não colonizamos a Lua? Nessa obra inteligente e divertida - best-seller do The New York Times e eleita um dos melhores livros de 2017 pelo The Wall Street Journal -, o cartunista Zach Weinersmith e a pesquisadora Dra. Kelly Weinersmith dão um vislumbre de novas e revolucionárias tecnologias que estão por vir - de enxames de robôs a torradeiras movidas a fusão nuclear. Através de pesquisas, de entrevistas com os cientistas que estão possibilitando a realização desses avanços e dos quadrinhos inconfundíveis de Zach, os autores investigam por que essas tecnologias são tão necessárias, como elas podem funcionar e o que atualmente as impede de acontecer. .",
@@ -1984,7 +1984,7 @@ const books = [
 },
 {
   "title": "The Book of Why: The New Science of Cause and Effect",
-  "image": "",
+  "image": "bookwhy",
   "creators": "Judea Pearl, Dana Mackenzie",
   "ean_isbn13": 9780465097609,
   "description": "How the study of causality revolutionized science and the world\"Correlation is not causation.\" This mantra, chanted by scientists for more than a century, has led to a virtual prohibition on causal talk. Today, that taboo is dead. The causal revolution, instigated by Judea Pearl and his colleagues, has cut through a century of confusion and established causality--the study of cause and effect--on a firm scientific basis. His work explains how we can know easy things, like whether it was rain or a sprinkler that made a sidewalk wet; and how to answer hard questions, like whether a drug cured an illness. Pearl's work enables us to know not just whether one thing causes another: it lets us explore the world that is and the worlds that could have been. It shows us the essence of human thought and key to artificial intelligence. Anyone who wants to understand either needs The Book of Why.",
@@ -1997,7 +1997,7 @@ const books = [
 },
 {
   "title": "Crafting Interpreters",
-  "image": "",
+  "image": "crafting",
   "creators": "Robert Nystrom (Illustrator)",
   "ean_isbn13": 9780990582939,
   "description": "Software engineers use programming languages every day, but few of us understand how those languages are designed and implemented. Crafting Interpreters gives you that insight by implementing two complete interpreters from scratch. In the process, you'll learn parsing, compilation, garbage collection, and other fundamental computer science concepts. But don't be intimidated! Crafting Interpreters walks you though all of this one step at a time with an emphasis on having fun and getting your hands dirty.",
@@ -2010,7 +2010,7 @@ const books = [
 },
 {
   "title": "Superintelligence: Paths, Dangers, Strategies",
-  "image": "",
+  "image": "superintell",
   "creators": "Nick Bostrom",
   "ean_isbn13": 9780198739838,
   "description": "The human brain has some capabilities that the brains of other animals lack. It is to these distinctive capabilities that our species owes its dominant position. Other animals have stronger muscles or sharper claws, but we have cleverer brains. If machine brains one day come to surpass human brains in general intelligence, then this new superintelligence could become very powerful. As the fate of the gorillas now depends more on us humans than on the gorillas themselves, so the fate of our species then would come to depend on the actions of the machine superintelligence. But we have one advantage: we get to make the first move. Will it be possible to construct a seed AI or otherwise to engineer initial conditions so as to make an intelligence explosion survivable? How could one achieve a controlled detonation? To get closer to an answer to this question, we must make our way through a fascinating landscape of topics and considerations. Read the book and learn about oracles, genies, singletons; about boxing methods, tripwires, and mind crime; about humanity's cosmic endowment and differential technological development; indirect normativity, instrumental convergence, whole brain emulation and technology couplings; Malthusian economics and dystopian evolution; artificial intelligence, and biological cognitive enhancement, and collective intelligence. This profoundly ambitious and original book picks its way carefully through a vast tract of forbiddingly difficult intellectual terrain. Yet the writing is so lucid that it somehow makes it all seem easy. After an utterly engrossing journey that takes us to the frontiers of thinking about the human condition and the future of intelligent life, we find in Nick Bostrom's work nothing less than a reconceptualization of the essential task of our time.",
@@ -2023,7 +2023,7 @@ const books = [
 },
 {
   "title": "The Elephant in the Brain",
-  "image": "",
+  "image": "elephant",
   "creators": "Kevin Simler, Robin Hanson",
   "ean_isbn13": 9780190495992,
   "description": "Human beings are primates, and primates are political animals. Our brains, therefore, are designed not just to hunt and gather, but also to help us get ahead socially, often via deception and self-deception. But while we may be self-interested schemers, we benefit by pretending otherwise. The less we know about our own ugly motives, the better - and thus we don't like to talk or even think about the extent of our selfishness. This is \"the elephant in the brain.\" Such an introspective taboo makes it hard for us to think clearly about our nature and the explanations for our behavior. The aim of this book, then, is to confront our hidden motives directly - to track down the darker, unexamined corners of our psyches and blast them with floodlights. Then, once everything is clearly visible, we can work to better understand ourselves: Why do we laugh? Why are artists sexy? Why do we brag about travel? Why do we prefer to speak rather than listen? Our unconscious motives drive more than just our private behavior; they also infect our venerated social institutions such as Art, School, Charity, Medicine, Politics, and Religion. In fact, these institutions are in many ways designed to accommodate our hidden motives, to serve covert agendas alongside their \"official\" ones. The existence of big hidden motives can upend the usual political debates, leading one to question the legitimacy of these social institutions, and of standard policies designed to favor or discourage them. You won't see yourself - or the world - the same after confronting the elephant in the brain.",
@@ -2036,7 +2036,7 @@ const books = [
 },
 {
   "title": "The Little Typer (The MIT Press)",
-  "image": "",
+  "image": "littletyper",
   "creators": "Daniel P. Friedman, David Thrane Christiansen",
   "ean_isbn13": 9780262536431,
   "description": "An introduction to dependent types, demonstrating the most beautiful aspects, one step at a time.A program's type describes its behavior. Dependent types are a first-class part of a language, and are much more powerful than other kinds of types; using just one language for types and programs allows program descriptions to be as powerful as the programs they describe. The Little Typer explains dependent types, beginning with a very small language that looks very much like Scheme and extending it to cover both programming with dependent types and using dependent types for mathematical reasoning. Readers should be familiar with the basics of a Lisp-like programming language, as presented in the first four chapters of The Little Schemer. The first five chapters of The Little Typer provide the needed tools to understand dependent types; the remaining chapters use these tools to build a bridge between mathematics and programming. Readers will learn that tools they know from programming―pairs, lists, functions, and recursion―can also capture patterns of reasoning. The Little Typer does not attempt to teach either practical programming skills or a fully rigorous approach to types. Instead, it demonstrates the most beautiful aspects as simply as possible, one step at a time.",
@@ -2049,7 +2049,7 @@ const books = [
 },
 {
   "title": "The Sciences of the Artificial - 3rd Edition",
-  "image": "",
+  "image": "tsa",
   "creators": "Herbert A. Simon",
   "ean_isbn13": 9780262691918,
   "description": "Continuing his exploration of the organization of complexity and the science of design, this new edition of Herbert Simon&#039;s classic work on artificial intelligence adds a chapter that sorts out the current themes and tools -- chaos, adaptive systems, genetic algorithms -- for analyzing complexity and complex systems.There are updates throughout the book as well. These take into account important advances in cognitive psychology and the science of design while confirming and extending the book&#039;s basic thesis: that a physical symbol system has the necessary and sufficient means for intelligent action. The chapter &quot;Economic Reality&quot; has also been revised to reflect a change in emphasis in Simon&#039;s thinking about the respective roles of organizations and markets in economic systems.",
@@ -2062,7 +2062,7 @@ const books = [
 },
 {
   "title": "Artificial Intelligence Safety and Security",
-  "image": "",
+  "image": "aiss",
   "creators": "Roman V. Yampolskiy",
   "ean_isbn13": 9780815369820,
   "description": "The history of robotics and artificial intelligence in many ways is also the history of humanity's attempts to control such technologies. From the Golem of Prague to the military robots of modernity, the debate continues as to what degree of independence such entities should have and how to make sure that they do not turn on us, its inventors. Numerous recent advancements in all aspects of research, development and deployment of intelligent systems are well publicized but safety and security issues related to AI are rarely addressed. This book is proposed to mitigate this fundamental problem. It is comprised of chapters from leading AI Safety researchers addressing different aspects of the AI control problem as it relates to the development of safe and secure artificial intelligence. The book is the first edited volume dedicated to addressing challenges of constructing safe and secure advanced machine intelligence. The chapters vary in length and technical content from broad interest opinion essays to highly formalized algorithmic approaches to specific problems. All chapters are self-contained and could be read in any order or skipped without a loss of comprehension.",
@@ -2075,7 +2075,7 @@ const books = [
 },
 {
   "title": "Human Compatible",
-  "image": "",
+  "image": "humancompat",
   "creators": "Stuart Russell",
   "ean_isbn13": 9780525558613,
   "description": "The most important book I have read in quite some time\" (Daniel Kahneman); \"A must-read\" (Max Tegmark); \"The book we've all been waiting for\" (Sam Harris) A leading artificial intelligence researcher lays out a new approach to AI that will enable us to coexist successfully with increasingly intelligent machines Longlisted for the 2019 Financial Times/McKinsey Business Book of the Year Award In the popular imagination, superhuman artificial intelligence is an approaching tidal wave that threatens not just jobs and human relationships, but civilization itself. Conflict between humans and machines is seen as inevitable and its outcome all too predictable. In this groundbreaking book, distinguished AI researcher Stuart Russell argues that this scenario can be avoided, but only if we rethink AI from the ground up. Russell begins by exploring the idea of intelligence in humans and in machines. He describes the near-term benefits we can expect, from intelligent personal assistants to vastly accelerated scientific research, and outlines the AI breakthroughs that still have to happen before we reach superhuman AI. He also spells out the ways humans are already finding to misuse AI, from lethal autonomous weapons to viral sabotage. If the predicted breakthroughs occur and superhuman AI emerges, we will have created entities far more powerful than ourselves. How can we ensure they never, ever, have power over us? Russell suggests that we can rebuild AI on a new foundation, according to which machines are designed to be inherently uncertain about the human preferences they are required to satisfy. Such machines would be humble, altruistic, and committed to pursue our objectives, not theirs. This new foundation would allow us to create machines that are provably deferential and provably beneficial. In a 2014 editorial co-authored with Stephen Hawking, Russell wrote, \"Success in creating AI would be the biggest event in human history. Unfortunately, it might also be the last.\" Solving the problem of control over AI is not just possible; it is the key that unlocks a future of unlimited promise.",
@@ -2088,7 +2088,7 @@ const books = [
 },
 {
   "title": "The Color of Magic: A Novel of Discworld",
-  "image": "",
+  "image": "terryprechett",
   "creators": "Terry Pratchett",
   "ean_isbn13": 9780062225672,
   "description": "The beginning of the hilarious and irreverent series that has more than 80 million copies worldwide, The Color of Magic is where we meet tourist Twoflower and wizard guide Ricewind, and follow them on their always-bizarre journeys.A writer who has been compared to Mark Twain, Kurt Vonnegut, and Douglas Adams, Sir Terry Pratchett has created a complex, yet zany world filled with a host of unforgettable characters who navigate around a profound fantasy universe, complete with its own set of cultures and rules.",
@@ -2101,7 +2101,7 @@ const books = [
 },
 {
   "title": "The Salmon of Doubt: Hitchhiking the Galaxy One Last Time",
-  "image": "",
+  "image": "salmonof",
   "creators": "Douglas Adams",
   "ean_isbn13": 9780345455291,
   "description": "On Friday, May 11, 2001, the world mourned the untimely passing of Douglas Adams, beloved creator of The Hitchhiker&rsquo;s Guide to the Galaxy, dead of a heart attack at age forty-nine. Thankfully, in addition to a magnificent literary legacy&mdash;which includes seven novels and three co-authored works of nonfiction&mdash;Douglas left us something more. The book you are about to enjoy was rescued from his four computers, culled from an archive of chapters from his long-awaited novel-in-progress, as well as his short stories, speeches, articles, interviews, and letters. In a way that none of his previous books could, The Salmon of Doubt provides the full, dazzling, laugh-out-loud experience of a journey through the galaxy as perceived by Douglas Adams. From a boy&rsquo;s first love letter (to his favorite science fiction magazine) to the distinction of possessing a nose of heroic proportions; from climbing Kilimanjaro in a rhino costume to explaining why Americans can&rsquo;t make a decent cup of tea; from lyrical tributes to the sublime pleasures found in music by Procol Harum, the Beatles, and Bach to the follies of his hopeless infatuation with technology; from fantastic, fictional forays into the private life of Genghis Khan to extended visits with Dirk Gently and Zaphod Beeblebrox: this is the vista from the elevated perch of one of the tallest, funniest, most brilliant, and most penetrating social critics and thinkers of our time.Welcome to the wonderful mind of Douglas Adams.From the Hardcover edition.",
@@ -2114,7 +2114,7 @@ const books = [
 },
 {
   "title": "Dirk Gently's Holistic Detective Agency",
-  "image": "",
+  "image": "dirkgently",
   "creators": "Douglas Adams",
   "ean_isbn13": 9780671746728,
   "description": "There is a long tradition of Great Detectives, and Dirk Gently does not belong to it. But his search for a missing cat uncovers a ghost, a time traveler, AND the devastating secret of humankind! Detective Gently&#039;s bill for saving the human race from extinction: NO CHARGE.",
@@ -2127,7 +2127,7 @@ const books = [
 },
 {
   "title": "The Long Dark Tea-Time of the Soul",
-  "image": "",
+  "image": "darktea",
   "creators": "Douglas Adams",
   "ean_isbn13": 9780671742515,
   "description": "When a passenger check-in desk at London&#039;s Heathrow Airport disappears in a ball of orange flame, the explosion is deemed an act of God. But which god, wonders holistic detective Dirk Gently? What god would be hanging around Heathrow trying to catch the 3:37 to Oslo? And what has this to do with Dirk&#039;s latest--and late-- client, found only this morning with his head revolving atop the hit record &quot;Hot Potato&quot;? Amid the hostile attentions of a stray eagle and the trauma of a very dirty refrigerator, super-sleuth Dirk Gently will once again solve the mysteries of the universe...",
@@ -2140,7 +2140,7 @@ const books = [
 },
 {
   "title": "UZUMAKI - A ESPIRAL DO HORROR BOX 3 VOLS.",
-  "image": "",
+  "image": "uzumaki",
   "creators": "JUNJI ITO",
   "ean_isbn13": 9788576162414,
   "description": "Obra prima dos quadrinhos de terror, Uzumaki conta a história de uma cidade assombrada - não por um fantasma ou demônio, mas por um padrão geométrico que domina a mente de seus habitantes.",
