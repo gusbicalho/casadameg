@@ -337,7 +337,7 @@ const books = [
     "length": "",
     "copies": 1
   },
-  {
+ /*{
     "title": "The Ghost in the Shell",
     "image": "xh23b13ee1d6932e2d727370c186af624c",
     "creators": "Shirow Masamune",
@@ -351,22 +351,8 @@ const books = [
     "price": "R$ 35,00",
     "length": "",
     "copies": 1
-  },
-  {
-    "title": "The Ghost in the Shell 2.0",
-    "image": "pi67e0d01887a30bfdae12c899ac2e9e92",
-    "creators": "Shirow Masamune",
-    "first_name": "Shirow",
-    "last_name": "Masamune",
-    "ean_isbn13": "9788545703716",
-    "upc_isbn10": "8545703716",
-    "publisher": "",
-    "publish_date": "",
-    "notes": "",
-    "price": "R$ 35,00",
-    "length": "",
-    "copies": 1
-  },
+  },*/
+  
   {
     "title": "YuYu Hakusho 1-19 (Coleção Completa)",
     "image": "yuyu",
