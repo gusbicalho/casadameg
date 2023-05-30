@@ -2525,12 +2525,30 @@ const moveis = [
 }).sort(compareBySearchString)
 
 const eletro = [
- /* RESERVA ROMEU {
-    title: "Airfryer Mondial",
-    image: "airfryer",
-    notes: "Fritadeira Sem Óleo Mondial, Family Inox-I - 4L, 110V, Preto, 1500W. Em bom estado, precisa de um lar que a valorizem de verdade.",
-    price: "R$250,00 ",
-  }, */
+ {
+    title: "Geladeira Consul Facilite Frost Free",
+    //image: "airfryer",
+    notes: "127V",
+    price: "R$800,00 ",
+  },
+  {
+    title: "Fogão 4 bocas eletrolux",
+    //image: "airfryer",
+    //notes: "",
+    price: "R$600,00 ",
+  },
+  {
+    title: "Micro-ondas Panasonic 21 Litros",
+    //image: "airfryer",
+    notes: "21 Litros, modelo Dia a Dia NN-ST254WRU, 127V",
+    price: "R$200,00 ",
+  },
+  {
+    title: "Máquina De Lavar Brastemp Ative! 9kg",
+    //image: "airfryer",
+    notes: "Branca 9kg 127 v",
+    price: "R$650,00 ",
+  },
   {
     title: "Aquecedor Mondial",
     //image: "",
