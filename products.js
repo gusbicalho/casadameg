@@ -1851,7 +1851,7 @@ const books = [
     "price": "R$ 45,00",
     "peso": 670
   },
-  {
+  /*{
     "title": "Rapido e Devagar: Duas Formas de Pensar",
     "image": "rapidodevagar",
     "creators": "Daniel Kahneman",
@@ -1863,7 +1863,7 @@ const books = [
     "Idioma": "Português",
     "price": "R$ 35,00",
     "peso": 840
-  },
+  },*/
   {
     "title": "Algorithms to Live By: The Computer Science of Human Decisions",
     "image": "toliveby",
@@ -2218,7 +2218,7 @@ const books = [
   "peso": 1020
 },
 {
-  "title": "A Linguagem dos Líderes",
+  "title": "A Linguagem Corporal dos Líderes",
   "image": "lingcorp",
   "creators": "Carol Kinsey Goman",
   "ean_isbn13": 9788532647627,
@@ -2495,13 +2495,13 @@ const sport = [
   {
     title: "Suporte de parede para bicicleta",
     notes: "novo",
-    price: "R$ 50,00",
+    price: "R$ 40,00",
   },
   {
     title: "Suporte de chão para bicicleta",
     image: "suporte",
     notes: "novo",
-    price: "R$ 30,00",
+    price: "R$ 25,00",
   },
   {
     title: "Patins",
