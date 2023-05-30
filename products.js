@@ -1942,7 +1942,6 @@ const books = [
     "price": "R$ 18,00",
     "peso": 430
   },
-///NOVOS
 {
   "title": "A Louca Dos Gatos",
   "image": "loucagatos",
@@ -2150,6 +2149,112 @@ const books = [
   "Idioma": "Português",
   "price": "R$ 150,00",
   "peso": 550
+},
+// NOVOS
+
+{
+  "title": "Segredo da Conquista, O",
+  "image": "segredodaconquista",
+  "creators": "Otavio Sampaio",
+  "ean_isbn13": 9788576796350,
+  "description": "E se você pudesse entender cada frase feminina em seu real significado? E se existisse uma fórmula para conquistar as mulheres mais belas que você deseja? E se eu dissesse que tudo isso é simplesmente algo que se possa ser aprendido? Alguns homens podem outros não, isso é o que somos levado a crer quando vemos outros homens bem- -sucedidos com lindas mulheres. Este livro tem como objetivo principal destruir essa afirmativa, mostrando que um conjunto de técnicas bem aplicadas e pequenos detalhes podem fazer o não se transformar num sim no jogo da paquera. Esse livro fala exatamente sobre esse universo alternativo, onde Otávio Sampaio encara a mulher, não de um ponto de vista masculino, tampouco feminino, mas sim de um ponto de vista diferente do que estamos acostumados a tratar. O autor convida vocês leitores a dividir essa realidade. O Segredo da Conquista revela o que as pessoas bem-sucedidas não falam, coisas que as mulheres não têm coragem de admitir, e, sobretudo, coisas que nem mesmo elas percebem.",
+  "publisher": "NOVO SECULO",
+  "Year": 2012,
+  "notes": "Ótimo estado, nenhuma observação",
+  "Idioma": "Português",
+  "price": "R$ 10,00",
+  "peso": 250
+},
+{
+  "title": "The Motivation Manifesto",
+  "image": "themotivation",
+  "creators": "Brendon Burchard",
+  "ean_isbn13": 9781401948078,
+  "description": "The Motivation Manifesto is a poetic and powerful call to reclaim our lives and find our own personal freedom. It&rsquo;s a triumphant work that transcends the title, lifting the reader from mere motivation into a soaringly purposeful and meaningful life. I love this book.&rdquo; &mdash; Paulo CoelhoThe Motivation Manifesto is a pulsing, articulate, ferocious call to claim our personal power. World-renowned high performance trainer Brendon Burchard reveals that the main motive of humankind is&nbsp;the pursuit of greater Personal Freedom. We desire the grand liberties of choice&mdash;time freedom,&nbsp;emotional freedom, social freedom, financial freedom, spiritual freedom. Only two enemies stand in&nbsp;our way: an external enemy, defined as the social oppression of who we are by the mediocre&nbsp;masses, and an internal enemy, a sort of self-oppression caused by our own doubt and fear. The march to Personal Freedom, Burchard argues, can be won only by declaring our intent and&nbsp;independence, stepping into our personal power, and battling through self-doubt and the&nbsp;distractions of the day until full victory is won. Recalling the revolutionist voices of the past that&nbsp;chose freedom over tyranny, Burchard&mdash;at times poetic yet always fierce&mdash;motivates us to free&nbsp;ourselves from fear and take back our lives once and for all.",
+  "publisher": "Hay House, Inc.",
+  "Year": 2014,
+  "notes": "Capa Dura, em ótimo estado, nenhuma observação",
+  "Idioma": "Inglês",
+  "price": "R$ 20,00",
+  "peso": 355
+},
+{
+  "title": "TRIANGULO NO PONTO",
+  "image": "trianguloponto",
+  "creators": "Eros Grau",
+  "ean_isbn13": 9788520919729,
+  "description": "Triângulo no ponto' romance de estréia do ministro do Supremo Tribunal Federal Eros Grau é uma trama equilibrada em três vértices. Rogério Xavier e Costa são homens com visões diferentes do mundo. Narrador destas biografias que vão se entrecortando ao longo do romance Rogério é um intelectual boêmio e idealista. Xavier por sua vez é um carreirista que abriu mão de tudo - crenças valores e amores - em prol da ascensão no trabalho. Já Costa é um bonachão que enfrentou o mundo levando vantagem conseguindo as coisas com jogo de cintura o típico jeitinho brasileiro. Ambientado nos anos 1960 no auge da ditadura militar o livro de Grau percorre 20 anos da história de um país que passava por profundas transformações sociais políticas e econômicas em meio à repressão da liberdade individual e à tortura.",
+  "publisher": "Nova Fronteira",
+  "Year": 2007,
+  "notes": "Em bom estado, possui marcação de amassado na capa",
+  "Idioma": "Português",
+  "price": "R$ 5,00",
+  "peso": 190
+},
+{
+  "title": "Grau 26",
+  "image": "grau26",
+  "creators": "Anthony E. Zuiker, Duane Swierczynski",
+  "ean_isbn13": 9788501088833,
+  "description": "Steve Dark, um agente aposentado do FBI, volta ao trabalho para deter um assassino em s&eacute;rie, um homem t&atilde;o perverso que n&atilde;o se encaixa em nenhum dos 25 graus de psicopatia. Para ele, &eacute; necess&aacute;rio criar o grau 26.",
+  "publisher": "Record",
+  "Year": 2009,
+  "notes": "Em bom estado, possui um risco de caneta na lateral do livro",
+  "Idioma": "Português",
+  "price": "R$ 10,00",
+  "peso": 595
+},
+{
+  "title": "Economia Micro E Macro",
+  "image": "economia",
+  "creators": "Marco Antonio Sandova Vasconcellos",
+  "ean_isbn13": 9788522443215,
+  "description": "",
+  "publisher": "Atlas",
+  "Year": 2009,
+  "notes": "4ª Edição marcações feitas a lápis em algumas páginas",
+  "Idioma": "Português",
+  "price": "R$ 45,00",
+  "peso": 1020
+},
+{
+  "title": "A Linguagem dos Líderes",
+  "image": "lingcorp",
+  "creators": "Carol Kinsey Goman",
+  "ean_isbn13": 9788532647627,
+  "description": "A linguagem corporal é a administração do tempo, do espaço, da aparência, da postura, do gesto, da prosódia vocal, do toque, do cheiro, da expressão facial e do contato visual. A mais recente pesquisa na neurociência e psicologia provou que a linguagem corporal é crucial para a eficácia da liderança - e este livro vai mostrar a você, exatamente, como ela impacta a capacidade dos líderes em negociar, administrar a mudança, estabelecer a confiança, projetar o carisma e promover a colaboração.",
+  "publisher": "Vozes",
+  "Year": 2014,
+  "notes": "Em bom estado, algumas páginas no primeiro capítulo amassadas",
+  "Idioma": "Português",
+  "price": "R$ 30,00",
+  "peso": 340
+},
+{
+  "title": "Guia Mangá de Cálculo Diferencial e Integral",
+  "image": "calculomanga",
+  "creators": "Hiroyuki Kojima",
+  "ean_isbn13": 9788575222089,
+  "description": "",
+  "publisher": "NOVATEC",
+  "Year": 2010,
+  "notes": "Primeiras páginas na parte superior manchada (água), não afeta a leitura",
+  "Idioma": "Português",
+  "price": "R$ 18,00",
+  "peso": 525
+},
+{
+  "title": "CÁLCULO VOLUME I - 5a Edição",
+  "image": "",
+  "creators": "James Steward",
+  "ean_isbn13": 9788522104796,
+  "description": "",
+  "publisher": "Thomson",
+  "Year": 2006,
+  "notes": "Lateral suja, nome do dono anterior anotado na capa, algumas anotações feitas no livro",
+  "Idioma": "Português",
+  "price": "R$ 20,00",
+  "peso": 1420
 }
 
 
