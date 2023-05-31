@@ -92,7 +92,7 @@ const app = Vue.createApp({
       return this.expanded.has(book)
     },
     bookDetails(book) {
-      const b = book.detailFields
+      return book.detailFields
         .flatMap(([fieldKey, title]) => {
           const text = book[fieldKey]
           if (text) {
@@ -100,8 +100,6 @@ const app = Vue.createApp({
           }
           return []
         })
-      console.log('bookDetails', b)
-      return b
     },
     wishcount() {
       return this.wishset.size
