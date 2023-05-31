@@ -2188,7 +2188,7 @@ const books = [
   "Year": 2007,
   "notes": "Em bom estado, possui marcação de amassado na capa",
   "Idioma": "Português",
-  "price": "R$ 5,00",
+  "price": "R$ 2,50",
   "peso": 190
 },
 {
@@ -2632,7 +2632,7 @@ const moveis = [
 const eletro = [
  {
     title: "Geladeira Consul Facilite Frost Free",
-    //image: "airfryer",
+    image: "geladeira",
     notes: "127V",
     price: "R$800,00 ",
   },
@@ -2759,13 +2759,13 @@ const outros = [
   },
   {
     title: "Caneca Harry Potter",
-   // "image": "tacas",
+    "image": "canecahp",
     notes: "ideal para decoração",
     price: "R$ 15,00",
   },
   {
     title: "Colecionáveis do Cinemark",
-   // "image": "tacas",
+    "image": "cinemark",
     notes: "Escolha um, ou vários.",
     price: "R$ 0,00",
   },
