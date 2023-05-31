@@ -2769,8 +2769,8 @@ const outros = [
     notes: `Koar - Acrílico: R$30,00  •  
     Fluire + Jarra - Pressca Preto: R$230,00 • 
     Pour Over - Aço Inox, Bialetti : R$125,00 •
-    French Press Bialetti Preziosa, 350 ml: R$150,00 •
-    Hario V60 + Jarra: R$80,00`,
+    French Press Bialetti Preziosa, 350 ml: R$150,00`,
+   //RESERVA TALITA Hario V60 + Jarra: R$80,00,
     // price: "Preço vide descrição",
     expanded: true,
   },
