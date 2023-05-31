@@ -2771,7 +2771,8 @@ const outros = [
     Pour Over - Aço Inox, Bialetti : R$125,00 •
     French Press Bialetti Preziosa, 350 ml: R$150,00 •
     Hario V60 + Jarra: R$80,00`,
-    price: "Preço vide descrição",
+    // price: "Preço vide descrição",
+    expanded: true,
   },
  /* Reservado DOUG {
     title: "Caneca Harry Potter",

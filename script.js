@@ -39,7 +39,7 @@ const app = Vue.createApp({
       products,
       searchString: null,
       visibleProducts: products[selectedTab],
-      expanded: new Set(),
+      expanded: new Set(allProducts.filter((product) => product.expanded)),
       wishset: new Set(wishlist),
       wishlist,
       selectedTab,
