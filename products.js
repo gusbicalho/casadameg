@@ -2685,6 +2685,12 @@ const eletro = [
     price: "R$1000,00",
   },
   {
+    title: "Umidificador BLACK+DECKER Bivolt",
+    image: "umidificador",
+    notes: " Bivolt Branco AIR1000-BR; possui recipiente para colocar fragrâncias e essências sem óleo, possibilita o funcionamento por aproximadamente 20 horas seguidas; Capacidade de 2,5 litros",
+    price: "R$120,00",
+  },
+  {
     title: "Crepeira Mondial 110V",
     image: "crepeira",
     notes: "Crepeira Mondial, 'Crepe & Hot Dog', 110V, 850W, Usada 1 vez",
