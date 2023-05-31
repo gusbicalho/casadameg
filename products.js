@@ -2773,12 +2773,12 @@ const outros = [
     Hario V60 + Jarra: R$80,00`,
     price: "Preço vide descrição",
   },
-  {
+ /* Reservado DOUG {
     title: "Caneca Harry Potter",
     "image": "canecahp",
     notes: "ideal para decoração",
     price: "R$ 15,00",
-  },
+  }, */
   {
     title: "Colecionáveis do Cinemark",
     "image": "cinemark",
