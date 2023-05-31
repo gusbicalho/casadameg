@@ -29,7 +29,7 @@ const DEFAULT_TAB = 'books'
 const app = Vue.createApp({
   data() {
     const products = window.Products
-    const allProducts = products.books
+    const allProducts = Object.values(products).flatMap((list) => list)
     const wishlist = withStorage(
       (storage) =>
         allProducts.filter((book) => storage.getItem(wishlistStorageKey(book)))
