@@ -1210,7 +1210,7 @@ const books = [
     "upc_isbn10": "",
     "publisher": "FC Hemus",
     "publish_date": "1979-01-01",
-    "notes": "Capa Rasgada",
+    "notes": "Capa Rasgada, de graça, venha buscar.",
     "price": "R$ 0,00",
     "length": 373,
     "copies": 1
@@ -2503,12 +2503,12 @@ const sport = [
     notes: "novo",
     price: "R$ 25,00",
   },
-  {
+ /* Vendido {
     title: "Patins",
     image: "patins",
     notes: "Patins Oxer Aluminium Abec 7, nº39BR, Azul e Cinza",
     price: "R$ 100,00",
-  },
+  },*/
   {
     title: "Colchonete para exercícios",
     notes: "Em bom estado, de graça, venha buscar.",
@@ -2783,7 +2783,7 @@ const outros = [
   {
     title: "Colecionáveis do Cinemark",
     "image": "cinemark",
-    notes: "Escolha um, ou vários.",
+    notes: "Escolha um, ou vários. De graça, venha buscar :)",
     price: "R$ 0,00",
   },
   {
