@@ -542,7 +542,7 @@ const books = [
     "length": "",
     "copies": 1
   },
-  {
+  /*{
     "title": "Segunda Fundação - Volume 3",
     "image": "cf926d1f0e315af4e52fac25a29b60718b",
     "creators": "Isaac Asimov",
@@ -556,7 +556,7 @@ const books = [
     "price": "R$ 10,00",
     "length": "",
     "copies": 1
-  },
+  },*/
   {
     "title": "Fundação e Império",
     "image": "st3a0bb6704a6a490160db2a44f5fed2f5",
