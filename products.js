@@ -2780,12 +2780,12 @@ const outros = [
     notes: "ideal para decoração",
     price: "R$ 15,00",
   }, */
-  {
+  /*{
     title: "Colecionáveis do Cinemark",
     "image": "cinemark",
     notes: "Escolha um, ou vários. De graça, venha buscar :)",
     price: "R$ 0,00",
-  },
+  },*/
   {
     title: "Suporte para flip chart com quadro branco",
    // "image": "tacas",
