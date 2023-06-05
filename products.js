@@ -2561,6 +2561,7 @@ const moveis = [
   },
   {
     title: "Mesa branca grande",
+    image: "mesabranca",
     notes: "de graça, venha buscar",
     price: "R$0,00"
   },
@@ -2571,8 +2572,9 @@ const moveis = [
   },
   {
     title: "Mesa para escritório Marrom",
-    notes: "",
-    price: "R$300,00"
+    image: "mesamarrom",
+    notes: "com uma marca em uma das pernas, como pode-se ver na foto",
+    price: "R$250,00"
   },
  {
     title: "Estante de Livros",
