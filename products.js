@@ -1903,7 +1903,7 @@ const books = [
     "price": "R$ 25,00",
     "peso": 790
   },
-  {
+  /* RESERVADO ANA {
     "title": "Codename Sailor V - Volume 1",
     "image": "sailorv1",
     "creators": "Naoko Takeuchi",
@@ -1915,7 +1915,7 @@ const books = [
     "Idioma": "Português",
     "price": "R$ 17,00",
     "peso": 260
-  },
+  }, */
   {
     "title": "Archaeological Guide To Rome",
     "image": "guiaroma",
