@@ -2217,8 +2217,9 @@ const books = [
   "price": "R$ 45,00",
   "peso": 1020
 },
-{
-  "title": "A Linguagem Corporal dos Líderes",
+/* reservado EV
+{  
+"title": "A Linguagem Corporal dos Líderes",
   "image": "lingcorp",
   "creators": "Carol Kinsey Goman",
   "ean_isbn13": 9788532647627,
@@ -2229,7 +2230,7 @@ const books = [
   "Idioma": "Português",
   "price": "R$ 30,00",
   "peso": 340
-},
+},*/
 {
   "title": "Guia Mangá de Cálculo Diferencial e Integral",
   "image": "calculomanga",
