@@ -217,7 +217,7 @@ const books = [
     "length": "",
     "copies": 1
   },*/
-  {
+ /* {
     "title": "O Código BRO",
     "image": "ys3f02bd4b2e6db4b3ae7a775fa22a8048",
     "creators": "Barney Stinson",
@@ -231,7 +231,7 @@ const books = [
     "price": "R$ 8,00",
     "length": "",
     "copies": 1
-  },
+  },*/
   {
     "title": "The Book of Bunny Suicides",
     "image": "m302dd88e8950a09fa433d4a63cf00ee9d",
@@ -1838,7 +1838,7 @@ const books = [
     "price": "R$ 100,00",
     "peso": 821
   },
-  {
+ /* {
     "title": "Ruído: Uma falha no julgamento humano",
     "image": "ruido",
     "creators": "Daniel Kahneman",
@@ -1850,7 +1850,7 @@ const books = [
     "Idioma": "Português",
     "price": "R$ 45,00",
     "peso": 670
-  },
+  },*/
   /*{
     "title": "Rapido e Devagar: Duas Formas de Pensar",
     "image": "rapidodevagar",
