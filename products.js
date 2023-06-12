@@ -2364,6 +2364,7 @@ const boardgames = [
     "title": "Star Trek Missions",
     "Idioma": "Inglês",
     "fornecedor": "Wizkids",
+    image: "STmissions",
     "notes": "",
     "peso": 285,
     "price": "R$ 150,00"
@@ -2420,6 +2421,7 @@ const boardgames = [
     "title": "Terraforming Mars",
     "Idioma": "Português",
     "fornecedor": "Meeple BR",
+    image:"terraform",
     "notes": "Cartas acompamham sleeve",
     "peso": 1720,
     "price": "R$ 350,00"
