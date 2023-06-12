@@ -1799,7 +1799,7 @@ const books = [
     "price": "R$ 20,00",
     "peso": 380
   },
-  {
+  /*{
     "title": "Misbehaving. A Construcao Da Economia Comportamental",
     "image": "misbehaving",
     "creators": "Richard H. Thaler",
@@ -1811,7 +1811,7 @@ const books = [
     "Idioma": "Português",
     "price": "R$ 45,00",
     "peso": 626
-  },
+  },*/
   {
     "title": "Superprevisoes",
     "image": "superprevisoes",
@@ -2663,6 +2663,19 @@ const eletro = [
     notes: "1100W, 110V",
     price: "R$60,00",
   },
+  /* NOVOS{
+    title: "Ferro de passar Black and Decker",
+    //image: "",
+   // notes: "",
+    price: "R$30,00",
+  },*/
+  {
+    title: "Furadeira + Acessórios Bosch",
+    image: "furadeira",
+    notes: "127V",
+    price: "R$300,00",
+  },
+
   {
     title: "Google Wi-Fi Roteador AC1200",
     image: "googlewifi",
