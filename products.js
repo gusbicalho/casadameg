@@ -2743,13 +2743,13 @@ const eletro = [
     image: "nespresso",
     notes: "Em ótimo estado, já que os humanos preferem café coado, ainda leva várias cápsulas de brinde",
     price: "R$250,00",
-  }, */
+  }, 
   {
     title: "Máquina de espresso Tramontina by Breville Express Pro em Aço Inox com Moedor 127 V",
     image: "breville",
     notes: "Em ótimo estado, mais detalhes no site da Tramontina: https://www.tramontina.com.br/cafeteira-eletrica-tramontina-by-breville-express-pro-em-aco-inox-com-moedor-2-l-127-v/69066011.html",
     price: "R$3500,00",
-  },
+  },*/
   {
     title: "Ventilador",
     notes: "",
