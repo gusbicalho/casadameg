@@ -1734,7 +1734,7 @@ const books = [
     "price": "R$ 28,00",
     "peso": 260
   },
-  {
+  /*{
     "title": "Modern Coin Magic: 116 Coin Sleights and 236 Coin Tricks",
     "image": "modernmagic",
     "creators": "J. B. Bobo",
@@ -1746,7 +1746,7 @@ const books = [
     "Idioma": "Inglês",
     "price": "R$ 45,00",
     "peso": 530
-  },
+  },*/
   {
     "title": "How to Taste: The Curious Cook's Handbook to Seasoning and Balance, from Umami to Acid and Beyond--with Recipes",
     "image": "taste",
