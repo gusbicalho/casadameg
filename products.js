@@ -2150,8 +2150,6 @@ const books = [
   "price": "R$ 150,00",
   "peso": 550
 },
-// NOVOS
-
 {
   "title": "Segredo da Conquista, O",
   "image": "segredodaconquista",
@@ -2256,6 +2254,97 @@ const books = [
   "Idioma": "Português",
   "price": "R$ 20,00",
   "peso": 1420
+},
+//novos
+{
+  "title": "Guerra do Velho",
+  "image": "guerradovelho",
+  "creators": "John Scalzi",
+  "ean_isbn13": 9788576572992,
+  "description": "A humanidade finalmente chegou a era das viagens interestelares. A ma noticia e que ha poucos planetas habitaveis disponiveis e muitos alienigenas lutando por eles. Para proteger a Terra e tambem conquistar novos territorios, a raca humana conta com tecnologias inovadoras e com a habilidade e a disposicao das FCD - Forcas Coloniais de Defesa. Mas, para se alistar, e necessario ter mais de 75 anos. John Perry vai aceitar esse desafio, e ele tem apenas uma vaga ideia do que pode esperar.",
+  "publisher": "Aleph",
+  "Year": 2016,
+  "notes": "Em bom estado, corte inferior um pouco sujo",
+  "Idioma": "Português",
+  "price": "R$ 21,00",
+  "peso": 575
+},
+{
+  "title": "As Brigadas Fantasma",
+  "image": "brigadas",
+  "creators": "John Scalzi",
+  "ean_isbn13": 9788576573777,
+  "description": "Na continuação do premiado livro Guerra do Velho, a tenente Jane Sagan descobre uma armadilha sendo tramada contra a humanidade e um plano para a subjugação e a erradicação de sua espécie inteira. É um genocídio planejado detalhadamente com base na cooperação, até então inédita, entre três raças. E um ser humano. Para lidar com essa trama, as Brigadas Fantasma, com soldados que já nascem com o propósito de proteger a raça humana, precisam entrar em ação. Passando por conflitos de identidade, mas com um forte senso de companheirismo, esses soldados serão liderados por Jane Sagan, que precisa impedir uma guerra entre espécies enquanto lida com um fato preocupante: em meio a suas fileiras, pode haver um traidor. Com a escrita dinâmica, leve e inteligente característica de John Scalzi, As Brigadas Fantasma discute questões éticas e de identidade enquanto envolve o leitor na história de uma grande conspiração política e bélica.",
+  "publisher": "Aleph",
+  "Year": 2017,
+  "notes": "Em bom estado, corte inferior um pouco sujo",
+  "Idioma": "Português",
+  "price": "R$ 21,00",
+  "peso": 590
+},
+{
+  "title": "Darth Vader and Son (Star Wars (Chronicle))",
+  "image": "darthvader",
+  "creators": "Jeffrey Brown",
+  "ean_isbn13": 9781452106557,
+  "description": "What if Darth Vader took an active role in raising his son? What if &quot;Luke, I am your father&quot; was just a stern admonishment from an annoyed dad? In this hilarious and sweet comic reimagining, Darth Vader is a dad like any other&mdash;except with all the baggage of being the Dark Lord of the Sith. Celebrated artist Jeffrey Brown&#039;s delightful illustrations give classic Star Wars&reg; moments a fresh twist, presenting the trials and joys of parenting through the lens of a galaxy far, far away. Life lessons include lightsaber batting practice, using the Force to raid the cookie jar, Take Your Child to Work Day on the Death Star (&quot;Er, he looks just like you, Lord Vader!&quot;), and the special bond shared between any father and son.",
+  "publisher": "Chronicle Books",
+  "Year": "2012-04-18",
+  "notes": "Em ótimo estado",
+  "Idioma": "Inglês",
+  "price": "R$ 40,00",
+  "peso": 260
+},
+{
+  "title": "Redshirts",
+  "creators": "John Scalzi",
+  "ean_isbn13": 9786586064711,
+  "description": "",
+  "publisher": "",
+  "Year": 2021,
+  "notes": "Em ótimo estado",
+  "Idioma": "Português",
+  "price": "R$ 28,00",
+  "peso": 578
+},
+{
+  "title": "Exercises in Programming Style",
+  "image": "eips",
+  "creators": "Cristina Videira Lopes",
+  "ean_isbn13": 9781482227376,
+  "description": "Using a simple computational task (term frequency) to illustrate different programming styles, Exercises in Programming Style helps readers understand the various ways of writing programs and designing systems. It is designed to be used in conjunction with code provided on an online repository. The book complements and explains the raw code in a way that is accessible to anyone who regularly practices the art of programming. The book can also be used in advanced programming courses in computer science and software engineering programs.  The book&nbsp;contains 33 different styles for writing the term frequency task. The styles are grouped into nine categories: historical, basic, function composition, objects and object interactions, reflection and metaprogramming, adversity, data-centric, concurrency, and interactivity. The author verbalizes the constraints in each style and explains the example programs. Each chapter first presents the constraints of the style, next shows an example program, and then gives a detailed explanation of the code. Most chapters also have sections focusing on the use of the style in systems design as well as sections describing the historical context in which the programming style emerged.",
+  "publisher": "Chapman and Hall/CRC",
+  "Year": 2014,
+  "notes": "Mancha na parte superior do livro, aparente nas primeiras páginas, não interfere na leitura, sem anotações ou marcações.",
+  "Idioma": "Inglês",
+  "price": "R$ 60,00",
+  "peso": 452
+},
+{
+  "title": "Programming Language Pragmatics, Third Edition",
+  "image": "plp",
+  "creators": "Michael L. Scott",
+  "ean_isbn13": 9780123745149,
+  "description": "Programming Language Pragmatics is the most comprehensive programming language textbook available today. Taking the perspective that language design and language implementation are tightly interconnected, and that neither can be fully understood in isolation, this critically acclaimed and bestselling book has been thoroughly updated to cover the most recent developments in programming language design. With a new chapter on run-time program management and expanded coverage of concurrency, this new edition provides both students and professionals alike with a solid understanding of the most important issues driving software development today.Classic programming foundations text now updated to familiarize students with the languages they are most likely to encounter in the workforce, including including Java 7, C++, C# 3.0, F#, Fortran 2008, Ada 2005, Scheme R6RS, and Perl 6.New and expanded coverage of concurrency and run-time systems ensures students and professionals understand the most important advances driving software today.Includes over 800 numbered examples to help the reader quickly cross-reference and access content.",
+  "publisher": "Morgan Kaufmann",
+  "Year": "2009-04-06",
+  "notes": "Em bom estado, lateral do livro um pouco suja, capa com algumas marcas, sem anotações ou grifos, NÃO acompanha CD",
+  "Idioma": "Inglês",
+  "price": "R$ 600,00",
+  "peso": 1610
+},
+{
+  "title": "Crystal Clear: A Human-Powered Methodology for Small Teams: A Human-Powered Methodology for Small Teams",
+  "image": "crystal",
+  "creators": "Alistair Cockburn",
+  "ean_isbn13": 9780201699470,
+  "description": "This book introduces Crystal Clear, a better lightweight methodology for building software. It describes the roles, teams, values, intentions, habits, activities, policies and work products of a small software development team for whom time-to-market and development costs are critical considerations. Alistair Cockburn is one of the founders of the Agile software development movement. He spells out proven best practices based on his extensive experience helping organizations build software quickly and with less cost. The author understands that small teams cannot be burdened by &quot;process-heavy&quot; software methodologies. By advocating that developers stay close together and remain in steady, good-will communication with customers and users, this book teaches the reader how to develop software that not only does what it is supposed to do, but also gets completed on time and within budget.",
+  "publisher": "Addison-Wesley Professional",
+  "Year": "2004-10-29",
+  "notes": "Capa com algumas marcas, livro em bom estado, com alguma páginas grifadas com marca texto",
+  "Idioma": "Inglês",
+  "price": "R$ 140,00",
+  "peso": 555
 }
 
 
@@ -2665,12 +2754,12 @@ const eletro = [
     notes: "1100W, 110V",
     price: "R$60,00",
   },
-  /* NOVOS{
+  {
     title: "Ferro de passar Black and Decker",
     //image: "",
    // notes: "",
     price: "R$30,00",
-  },*/
+  },
   {
     title: "Furadeira + Acessórios Bosch",
     image: "furadeira",
