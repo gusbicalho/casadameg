@@ -2297,6 +2297,7 @@ const books = [
 },
 {
   "title": "Redshirts",
+  "image": "redshirts",
   "creators": "John Scalzi",
   "ean_isbn13": 9786586064711,
   "description": "",
