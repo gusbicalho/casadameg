@@ -2677,7 +2677,7 @@ const moveis = [
   },
   {
     title: "Estante de Livros",
-    //image: "",
+    image: "estante2",
     notes: "Estante de antiga de madeira, sugestão para o comprador: trocar os trilhos",
     price: "R$300,00"
   },
