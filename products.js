@@ -557,7 +557,7 @@ const books = [
     "length": "",
     "copies": 1
   },*/
-  {
+  /*{
     "title": "Fundação e Império",
     "image": "st3a0bb6704a6a490160db2a44f5fed2f5",
     "creators": "Isaac Asimov",
@@ -571,7 +571,7 @@ const books = [
     "price": "R$ 10,00",
     "length": "",
     "copies": 1
-  },
+  },*/
   {
     "title": "Retalhos - Blankets",
     "image": "jwe03ba66fb42a12ba43cb38aef80580bb",
