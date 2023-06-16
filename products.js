@@ -482,7 +482,7 @@ const books = [
     "length": "",
     "copies": 1
   },
-  {
+  /*{
     "title": "Akira 2",
     "image": "s9954e223cadb33d7d8c87538ddde7affc",
     "creators": "Katsuhiro Otomo",
@@ -496,7 +496,7 @@ const books = [
     "price": "R$ 40,00",
     "length": "",
     "copies": 1
-  },
+  }, */
   /*{
     "title": "Akira - Volume 1",
     "image": "jh1ba4f3ce3e1456ba678180d590059a59",
@@ -2761,12 +2761,12 @@ const eletro = [
    // notes: "",
     price: "R$30,00",
   },
-  {
+/*  {
     title: "Furadeira + Acessórios Bosch",
     image: "furadeira",
     notes: "127V",
     price: "R$300,00",
-  },
+  },*/
 
   {
     title: "Google Wi-Fi Roteador AC1200",
