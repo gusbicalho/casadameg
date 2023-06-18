@@ -2826,7 +2826,7 @@ const eletro = [
     title: "Moedor de Café Ajustável, Hamilton Beach, 127V",
     image: "moedorhb",
     notes: "Mais detalhes: https://www.hamiltonbeach.com.br/produto/moedor-ajustavel/80393",
-    price: "R$230,00",
+    price: "R$200,00",
   },
   /* RESERVA ROMEU {
     title: "Nespresso Essenza Mini Cafeteira 110V",
