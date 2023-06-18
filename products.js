@@ -2370,21 +2370,14 @@ const books = [
 }).sort(compareBySearchString)
 //---------------------------------------------BOARDGAMES-----------------------------------------------
 const boardgames = [
-  {
-    "title": "Star Realms",
-    "Idioma": "Português",
-    "fornecedor": "Devir",
-    "notes": "",
-    "peso": 285,
-    "price": "R$ 75,00"
-  },
+
   {
     "title": "Pokémon Sol e Lua - Maré Brilhante",
     "Idioma": "Português",
     "fornecedor": "Copag",
     "notes": "Caixa com instruções danificada, caixa do baralho em perfeito estado",
     "peso": 200,
-    "price": "R$ 40,00"
+    "price": "R$ 25,00"
   },
   {
     "title": "Black Stories 2",
@@ -2392,7 +2385,7 @@ const boardgames = [
     "fornecedor": "Galápagos",
     "notes": "",
     "peso": 215,
-    "price": "R$ 28,00"
+    "price": "R$ 14,00"
   },
   {
     "title": "Parade",
@@ -2400,7 +2393,7 @@ const boardgames = [
     "fornecedor": "Fire on board",
     "notes": "",
     "peso": 280,
-    "price": "R$ 100,00"
+    "price": "R$ 50,00"
   },
   {
     "title": "Boss Monster",
@@ -2408,7 +2401,7 @@ const boardgames = [
     "fornecedor": "Brotherwise Games",
     "notes": "Cartas acompanham sleeve",
     "peso": 515,
-    "price": "R$ 130,00"
+    "price": "R$ 75,00"
   },
   {
     "title": "Cards Against Humanity",
@@ -2416,7 +2409,7 @@ const boardgames = [
     "fornecedor": "",
     "notes": "",
     "peso": 1055,
-    "price": "R$ 280,00"
+    "price": "R$ 100,00"
   },
   {
     "title": "Splendor",
@@ -2424,7 +2417,7 @@ const boardgames = [
     "fornecedor": "",
     "notes": "não é original! Cartas com sleeve",
     "peso": 295,
-    "price": "R$ 50,00"
+    "price": "R$ 25,00"
   },
   {
     "title": "Timeline",
@@ -2432,7 +2425,7 @@ const boardgames = [
     "fornecedor": "Galápagos",
     "notes": "",
     "peso": 125,
-    "price": "R$ 60,00"
+    "price": "R$ 30,00"
   },
   {
     "title": "War Cards",
@@ -2440,15 +2433,15 @@ const boardgames = [
     "fornecedor": "Grow",
     "notes": "novo",
     "peso": 210,
-    "price": "R$ 45,00"
+    "price": "R$ 20,00"
   },
   {
-    "title": "The Shadow Word",
+    "title": "The Shadow World",
     "Idioma": "Inglês",
     "fornecedor": "Magical Myroramas",
     "notes": "",
     "peso": 430,
-    "price": "R$ 75,00"
+    "price": "R$ 30,00"
   },
   {
     "title": "Star Trek Missions",
@@ -2457,15 +2450,15 @@ const boardgames = [
     image: "STmissions",
     "notes": "",
     "peso": 285,
-    "price": "R$ 150,00"
+    "price": "R$ 75,00"
   },
   {
     "title": "Quebra Cabeça Rei Leão (edição Cinemark, com caixa \"VHS\")",
     "Idioma": "Português",
     "fornecedor": "Cinemark",
-    "notes": "",
+    "notes": "De graça, venha buscar",
     "peso": 250,
-    "price": "R$ 25,00"
+    "price": "R$ 0,00"
   },
   {
     "title": "Quebra Cabeça Harry Potter - Hogwarts Express",
@@ -2473,7 +2466,7 @@ const boardgames = [
     "fornecedor": "Omelete Box",
     "notes": "1000 peças (dimensão do quebra cabeça montado 48,5 cm X 70,8 cm)",
     "peso": 460,
-    "price": "R$ 70,00"
+    "price": "R$ 35,00"
   },
   {
     "title": "The resistence",
@@ -2481,7 +2474,7 @@ const boardgames = [
     "fornecedor": "Galápagos",
     "notes": "",
     "peso": 560,
-    "price": "R$ 125,00"
+    "price": "R$ 70,00"
   },
   {
     "title": "Quebra Cabeça - Vielas Francesas",
@@ -2489,7 +2482,7 @@ const boardgames = [
     "fornecedor": "Game Office",
     "notes": "1000 Peças",
     "peso": 485,
-    "price": "R$ 40,00"
+    "price": "R$ 30,00"
   },
   {
     "title": "Quebre Cabeça - Basílica de São Pedro",
@@ -2497,7 +2490,7 @@ const boardgames = [
     "fornecedor": "Game Office",
     "notes": "500 Peças",
     "peso": 380,
-    "price": "R$ 35,00"
+    "price": "R$ 25,00"
   },
   {
     "title": "Flash Point ao resgate",
@@ -2505,7 +2498,7 @@ const boardgames = [
     "fornecedor": "Funbox Jogos",
     "notes": "",
     "peso": 1030,
-    "price": "R$ 300,00"
+    "price": "R$ 150,00"
   },
   {
     "title": "Terraforming Mars",
@@ -2514,7 +2507,7 @@ const boardgames = [
     image:"terraform",
     "notes": "Cartas acompamham sleeve",
     "peso": 1720,
-    "price": "R$ 350,00"
+    "price": "R$ 200,00"
   },
   {
     "title": "Colonizadores de Catan",
@@ -2522,7 +2515,7 @@ const boardgames = [
     "fornecedor": "Grow",
     "notes": "Caixa arranhada pela dona da casa",
     "peso": 830,
-    "price": "R$ 220,00"
+    "price": "R$ 110,00"
   },
   {
     "title": "Throw Throw Burrito - Kickstarter Edition",
@@ -2530,7 +2523,7 @@ const boardgames = [
     "fornecedor": "Exploding Kittens",
     "notes": "Kickstarter Edition - Cartas acompanham sleeve",
     "peso": 690,
-    "price": "R$ 250,00"
+    "price": "R$ 150,00"
   },
   {
     "title": "Throw Throw Burrito - Original Edition",
@@ -2538,7 +2531,7 @@ const boardgames = [
     "fornecedor": "Exploding Kittens",
     "notes": "novo",
     "peso": 720,
-    "price": "R$ 150,00"
+    "price": "R$ 80,00"
   },
   {
     "title": "Star Wars X-Wing",
@@ -2546,7 +2539,7 @@ const boardgames = [
     "fornecedor": "Galápagos",
     "notes": "",
     "peso": 695,
-    "price": "R$ 300,00"
+    "price": "R$ 150,00"
   },
   {
     "title": "Unlock Escape Adventures - the island of doctor goorse",
@@ -2554,7 +2547,7 @@ const boardgames = [
     "fornecedor": "",
     "notes": "",
     "peso": 255,
-    "price": "R$ 50,00"
+    "price": "R$ 10,00"
   }
 ].map((product) => {
   return {
@@ -2577,13 +2570,13 @@ const sport = [
     title: "Bicicleta Aro 26",
    // "image": "bicicletabranca",
     notes: "Marca: Rockrider, Branca, Aro 26, Tamanho M, acompanha paralamas, banco gel e banco original, capacete branco tamanho M, descanso de apoio, único dono, garantia de quadro vitalício, com nota fiscal",
-    price: "R$ 700,00",
+    price: "R$ 650,00",
   },
  {
     title: "Bicicleta Soul Aro 29",
     "image": "bicicletasoul",
     notes: "Marca: Soul, Vermelha, Aro 29, Tamanho S, acompanha 2 suportes para caramanhola, campainha e pedal original. único dono, SEGURO Bike Mulher válido até Setembro de 2023, com nota fiscal",
-    price: "R$ 4500,00",
+    price: "R$ 4300,00",
  },
   {
     title: "Suporte de parede para bicicleta",
@@ -2633,24 +2626,19 @@ const moveis = [
     title: "Buffet 3 Portas Tok&Stok",
     image:"buffet",
     notes: "Cor: Preto/Nozes, Largura: 1,20M Altura: 81.50CM Profundidade:35 CM, mais detalhes: https://www.tokstok.com.br/buffet-3-portas-1-20-m-x-35-cm-preto-nozes-lin/p",
-    price: "R$550,00"
+    price: "R$350,00"
   },
   {
     title: "Baú Tok&Stok",
     image:"bau",
     notes: "Cor: Preto/Nozes, Largura: 70CM Altura: 42.70CM Profundidade:35,5 CM, mais detalhes:https://www.tokstok.com.br/bau-70-cm-x-35-cm-preto-nozes-lin/p",
-    price: "R$400,00"
+    price: "R$200,00"
   },
   {
     title: "4 Cadeiras Eames Wood Tok&Stok Preta",
     image:"cadeiraew",
     notes: "Mais detalhes: https://www.tokstok.com.br/wood-cadeira-faia-preto-eames/p",
-    price: "R$600,00"
-  },  {
-    title: "Carrinho Tok&Stok",
-    image: "carrinho",
-    notes: "Altura: 92CM Largura: 62.50CM Profundidade: 50CM, mais detalhes: https://www.tokstok.com.br/carrinho-62-cm-x-50-cm-amendoa-massy/p",
-    price: "R$1000,00"
+    price: "R$400,00"
   },
   {
     title: "Mesa branca grande",
@@ -2667,42 +2655,42 @@ const moveis = [
     title: "Mesa para escritório Marrom",
     image: "mesamarrom",
     notes: "com uma marca em uma das pernas, como pode-se ver na foto",
-    price: "R$250,00"
+    price: "R$150,00"
   },
  {
     title: "Estante de Livros",
     image: "estante1",
     notes: "Estante de madeira maciça com portas de vidro e uma gaveta",
-    price: "R$800,00"
+    price: "R$600,00"
   },
   {
     title: "Estante de Livros",
     image: "estante2",
     notes: "Estante de antiga de madeira, sugestão para o comprador: trocar os trilhos",
-    price: "R$300,00"
+    price: "R$200,00"
   },
   {
     title: "Sofá",
     image: "sofa",
     notes: "Medidas: Largura: 2,30m, Comp. Aberto: 1,80m,Comp. Fechado: 1,30m, Marcas de arranhado (Meg) apenas na parte detrás, entrar em contato para mais detalhes. Valor pago na loja: R$5300,00",
-    price: "R$2500,00"
+    price: "R$2000,00"
   },
   {
     title: "Conjunto Mesa + 4 cadeiras dobráveis",
     image: "mesabar",
     notes: "A mesa está com algumas marcas de calor",
-    price: "R$200,00"
+    price: "R$100,00"
   },
   {
     title: "2 Cadeiras de praia",
-    notes: "",
-    price: "R$60,00"
+    notes: "De graça, venha buscar",
+    price: "R$0,00"
   },
   {
     title: "Cabideiro de piso",
     image: "cabideiro",
     notes: "Preto, Tok Stok. referência: https://encurtador.com.br/ajoP8",
-    price: "R$150,00",
+    price: "R$80,00",
   },
   /*{
     title: "Guarda Roupa pequeno",
@@ -2735,25 +2723,25 @@ const eletro = [
     title: "Fogão 4 bocas eletrolux",
     //image: "airfryer",
     //notes: "",
-    price: "R$600,00 ",
+    price: "R$300,00 ",
   },
   {
     title: "Micro-ondas Panasonic 21 Litros",
     //image: "airfryer",
     notes: "21 Litros, modelo Dia a Dia NN-ST254WRU, 127V",
-    price: "R$200,00 ",
+    price: "R$150,00 ",
   },
   {
     title: "Máquina De Lavar Brastemp Ative! 9kg",
     //image: "airfryer",
     notes: "Branca 9kg 127 v",
-    price: "R$650,00 ",
+    price: "R$450,00 ",
   },
   {
     title: "Aquecedor Mondial",
     //image: "",
     notes: "1100W, 110V",
-    price: "R$60,00",
+    price: "R$50,00",
   },
   {
     title: "Ferro de passar Black and Decker",
@@ -2784,31 +2772,31 @@ const eletro = [
     title: "Impressora Brother Laser, Mono, Wi-Fi, 110V - HL1212W",
     image:  "impressora",
     notes: "Estará disponível no fim de Junho. Especificações: https://www.kabum.com.br/produto/63740/impressora-brother-laser-mono-wi-fi-110v-hl1212w",
-    price: "R$800,00",
+    price: "R$500,00",
   },
   {
     title: "Purificador de Ar TruSens Z-1000 - 110V",
     image: "trusens",
     notes: "Vai com um filtro novo e mais 2 extras. 'Este purificador tecnologicamente avançado, com filtragem DuPont™, reduz os poluentes do seu espaço pessoal e melhora a qualidade do ar na sua casa. O design atraente e estilo compacto são ideais para qualquer espaço pequeno.' Mais detalhes: https://trusens.com.br/produto/purificador-de-ar-ambiente-pequeno/",
-    price: "R$1000,00",
+    price: "R$800,00",
   },
   {
     title: "Umidificador BLACK+DECKER Bivolt",
     image: "umidificador",
     notes: " Bivolt Branco AIR1000-BR; possui recipiente para colocar fragrâncias e essências sem óleo, possibilita o funcionamento por aproximadamente 20 horas seguidas; Capacidade de 2,5 litros",
-    price: "R$120,00",
+    price: "R$100,00",
   },
   {
     title: "Crepeira Mondial 110V",
     image: "crepeira",
     notes: "Crepeira Mondial, 'Crepe & Hot Dog', 110V, 850W, Usada 1 vez",
-    price: "R$80,00",
+    price: "R$60,00",
   },
   {
     title: "Liquidificador Britânia",
     image:"liquidificador",
     notes: "Liquidificador Britânia Bellagio 800W, 110V",
-    price: "R$80,00",
+    price: "R$50,00",
   },
 /* RESERVA PATY  {
     title: "Robô Aspirador Eufy by Anker BoostIQ RoboVac 11S (Slim) Bivolt",
@@ -2820,7 +2808,7 @@ const eletro = [
     title: "Pipoqueira Mondial Popflix 110V",
     image: "pipoqueira",
     //notes: "",
-    price: "R$120,00",
+    price: "R$80,00",
   },
   {
     title: "Moedor de Café Ajustável, Hamilton Beach, 127V",
@@ -2869,15 +2857,15 @@ const outros = [
     title: "4 Taças de Cristal",
     "image": "taca",
     notes: "4 taças de cristal para vinho tinto 480ml",
-    price: "R$ 50,00",
+    price: "R$ 40,00",
   },
   {
     title: "Métodos de Café",
    "image": "cafe",
     notes: `Koar - Acrílico: R$30,00  •  
-    Fluire + Jarra - Pressca Preto: R$230,00 • 
+    Fluire + Jarra - Pressca Preto: R$200,00 • 
     Pour Over - Aço Inox, Bialetti : R$125,00 •
-    French Press Bialetti Preziosa, 350 ml: R$150,00`,
+    French Press Bialetti Preziosa, 350 ml: R$130,00`,
    //RESERVA TALITA Hario V60 + Jarra: R$80,00,
     // price: "Preço vide descrição",
     expanded: true,
