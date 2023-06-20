@@ -2452,7 +2452,7 @@ const boardgames = [
     "peso": 285,
     "price": "R$ 75,00"
   },
-  {
+ /* {
     "title": "Quebra Cabeça Rei Leão (edição Cinemark, com caixa \"VHS\")",
     "Idioma": "Português",
     "fornecedor": "Cinemark",
@@ -2467,7 +2467,7 @@ const boardgames = [
     "notes": "1000 peças (dimensão do quebra cabeça montado 48,5 cm X 70,8 cm)",
     "peso": 460,
     "price": "R$ 35,00"
-  },
+  },*/
   {
     "title": "The resistence",
     "Idioma": "Português",
@@ -2476,7 +2476,7 @@ const boardgames = [
     "peso": 560,
     "price": "R$ 70,00"
   },
-  {
+ /* {
     "title": "Quebra Cabeça - Vielas Francesas",
     "Idioma": "Português",
     "fornecedor": "Game Office",
@@ -2491,7 +2491,7 @@ const boardgames = [
     "notes": "500 Peças",
     "peso": 380,
     "price": "R$ 25,00"
-  },
+  },*/
   {
     "title": "Flash Point ao resgate",
     "Idioma": "Português",
@@ -2882,12 +2882,6 @@ const outros = [
     notes: "Escolha um, ou vários. De graça, venha buscar :)",
     price: "R$ 0,00",
   },*/
-  {
-    title: "Suporte para flip chart com quadro branco",
-   // "image": "tacas",
-    notes: "De graça, venha buscar",
-    price: "R$ 0,00",
-  },
   {
     title: "Star Trek Bustos Eaglemoss Hero Collector - Capitão Kirk",
    "image": "kirk",
